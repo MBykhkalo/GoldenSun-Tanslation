@@ -168,3 +168,77 @@ If Ukrainian text appears as wrong symbols, confirm the text is entered in `text
 If a font glyph displays incorrectly, check the relevant files in `output/missing_glyphs/`. For secondary menu/save glyphs, preserve both `width_pixels` and `record_header_hex` in the JSON metadata.
 
 If you are unsure what to edit, use option `6` to show current project status and paths.
+
+
+
+
+# License & Legal Disclaimers
+
+This repository contains a fan translation of the **Golden Sun** game series (including *Golden Sun* and/or *Golden Sun: The Lost Age*) for the Game Boy Advance (GBA) handheld console, as well as utilities and scripts for automating localization, extraction, and reverse-engineering workflows.
+
+---
+
+## 1. Legal Disclaimer & Trademarks
+
+- **Trademarks & Intellectual Property:**
+  All rights, titles, and intellectual property associated with *Golden Sun*, including registered trademarks, logos, characters, storyline, graphics, and audio assets, belong exclusively to **Nintendo Co., Ltd.** and **Camelot Software Planning**.
+- **Non-Commercial & Educational Purpose:**
+  This project is a non-commercial, non-profit fan-made effort created solely for educational purposes, digital preservation, and promoting the game series within the Ukrainian-speaking community.
+- **No Original ROMs or Copyrighted Binary Distribution:**
+  This repository **DOES NOT contain, host, or distribute**:
+  - Original Game Boy Advance ROM images or cartridge dumps.
+  - Copyrighted proprietary Nintendo system code.
+  - Commercial game assets owned by Nintendo or Camelot.
+- **User Requirements:**
+  Patch files (e.g., IPS, BPS, UPS) and utilities provided in this repository are intended exclusively for use with legally acquired game backups owned by the end-user. The maintainer of this repository does not support or condone software piracy.
+
+---
+
+## 2. Tools & Source Code License
+
+All original custom source code, utility scripts (e.g., Python extraction/repacking tools), and build automation scripts authored by the maintainers of this repository are distributed under the **MIT License**.
+
+```text
+MIT License
+
+Copyright (c) 2026 MBykhkalo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+## 3. Translation Assets & Text License
+
+The localized text files, translation scripts, and custom graphics assets created for this project are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.
+
+**Under this license, you are free to:**
+- **Share:** Copy and redistribute the material in any medium or format.
+- **Adapt:** Remix, transform, and build upon the material for non-commercial purposes.
+
+**Under the following terms:**
+- **Attribution:** You must give appropriate credit to the author(s) and provide a link to the original repository.
+- **NonCommercial:** You may not use the material for commercial purposes or monetize derivative releases.
+
+---
+
+## 4. Limitation of Liability
+
+The materials, scripts, and patch files in this repository are provided on an **"AS IS"** basis, without warranties of any kind, either express or implied. In no event shall the authors or maintainers be held liable for any data loss, save-file corruption, hardware damage, or legal issues resulting from the use or misuse of the contents of this repository.
+
