@@ -1,0 +1,1355 @@
+{
+  "metadata": {
+    "source": "bundled Cyrillic width table",
+    "width_table_offset": "0x0370d4",
+    "base_code": "0x20",
+    "entry_count": 224,
+    "evidence": "Byte table of small VWF pixel widths; offset 0x3716c corresponds to code 0xB8 and is the Cyrillic-width changed region."
+  },
+  "widths": {
+    "0x20": {
+      "code": 32,
+      "char_cp1251": " ",
+      "width_pixels": 5,
+      "width_table_offset": "0x0370d4"
+    },
+    "0x21": {
+      "code": 33,
+      "char_cp1251": "!",
+      "width_pixels": 4,
+      "width_table_offset": "0x0370d5"
+    },
+    "0x22": {
+      "code": 34,
+      "char_cp1251": "\"",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370d6"
+    },
+    "0x23": {
+      "code": 35,
+      "char_cp1251": "#",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370d7"
+    },
+    "0x24": {
+      "code": 36,
+      "char_cp1251": "$",
+      "width_pixels": 8,
+      "width_table_offset": "0x0370d8"
+    },
+    "0x25": {
+      "code": 37,
+      "char_cp1251": "%",
+      "width_pixels": 8,
+      "width_table_offset": "0x0370d9"
+    },
+    "0x26": {
+      "code": 38,
+      "char_cp1251": "&",
+      "width_pixels": 8,
+      "width_table_offset": "0x0370da"
+    },
+    "0x27": {
+      "code": 39,
+      "char_cp1251": "'",
+      "width_pixels": 4,
+      "width_table_offset": "0x0370db"
+    },
+    "0x28": {
+      "code": 40,
+      "char_cp1251": "(",
+      "width_pixels": 5,
+      "width_table_offset": "0x0370dc"
+    },
+    "0x29": {
+      "code": 41,
+      "char_cp1251": ")",
+      "width_pixels": 5,
+      "width_table_offset": "0x0370dd"
+    },
+    "0x2A": {
+      "code": 42,
+      "char_cp1251": "*",
+      "width_pixels": 5,
+      "width_table_offset": "0x0370de"
+    },
+    "0x2B": {
+      "code": 43,
+      "char_cp1251": "+",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370df"
+    },
+    "0x2C": {
+      "code": 44,
+      "char_cp1251": ",",
+      "width_pixels": 4,
+      "width_table_offset": "0x0370e0"
+    },
+    "0x2D": {
+      "code": 45,
+      "char_cp1251": "-",
+      "width_pixels": 5,
+      "width_table_offset": "0x0370e1"
+    },
+    "0x2E": {
+      "code": 46,
+      "char_cp1251": ".",
+      "width_pixels": 4,
+      "width_table_offset": "0x0370e2"
+    },
+    "0x2F": {
+      "code": 47,
+      "char_cp1251": "/",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370e3"
+    },
+    "0x30": {
+      "code": 48,
+      "char_cp1251": "0",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370e4"
+    },
+    "0x31": {
+      "code": 49,
+      "char_cp1251": "1",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370e5"
+    },
+    "0x32": {
+      "code": 50,
+      "char_cp1251": "2",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370e6"
+    },
+    "0x33": {
+      "code": 51,
+      "char_cp1251": "3",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370e7"
+    },
+    "0x34": {
+      "code": 52,
+      "char_cp1251": "4",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370e8"
+    },
+    "0x35": {
+      "code": 53,
+      "char_cp1251": "5",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370e9"
+    },
+    "0x36": {
+      "code": 54,
+      "char_cp1251": "6",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370ea"
+    },
+    "0x37": {
+      "code": 55,
+      "char_cp1251": "7",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370eb"
+    },
+    "0x38": {
+      "code": 56,
+      "char_cp1251": "8",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370ec"
+    },
+    "0x39": {
+      "code": 57,
+      "char_cp1251": "9",
+      "width_pixels": 7,
+      "width_table_offset": "0x0370ed"
+    },
+    "0x3A": {
+      "code": 58,
+      "char_cp1251": ":",
+      "width_pixels": 5,
+      "width_table_offset": "0x0370ee"
+    },
+    "0x3B": {
+      "code": 59,
+      "char_cp1251": ";",
+      "width_pixels": 5,
+      "width_table_offset": "0x0370ef"
+    },
+    "0x3C": {
+      "code": 60,
+      "char_cp1251": "<",
+      "width_pixels": 5,
+      "width_table_offset": "0x0370f0"
+    },
+    "0x3D": {
+      "code": 61,
+      "char_cp1251": "=",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370f1"
+    },
+    "0x3E": {
+      "code": 62,
+      "char_cp1251": ">",
+      "width_pixels": 5,
+      "width_table_offset": "0x0370f2"
+    },
+    "0x3F": {
+      "code": 63,
+      "char_cp1251": "?",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370f3"
+    },
+    "0x40": {
+      "code": 64,
+      "char_cp1251": "@",
+      "width_pixels": 8,
+      "width_table_offset": "0x0370f4"
+    },
+    "0x41": {
+      "code": 65,
+      "char_cp1251": "A",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370f5"
+    },
+    "0x42": {
+      "code": 66,
+      "char_cp1251": "B",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370f6"
+    },
+    "0x43": {
+      "code": 67,
+      "char_cp1251": "C",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370f7"
+    },
+    "0x44": {
+      "code": 68,
+      "char_cp1251": "D",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370f8"
+    },
+    "0x45": {
+      "code": 69,
+      "char_cp1251": "E",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370f9"
+    },
+    "0x46": {
+      "code": 70,
+      "char_cp1251": "F",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370fa"
+    },
+    "0x47": {
+      "code": 71,
+      "char_cp1251": "G",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370fb"
+    },
+    "0x48": {
+      "code": 72,
+      "char_cp1251": "H",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370fc"
+    },
+    "0x49": {
+      "code": 73,
+      "char_cp1251": "I",
+      "width_pixels": 4,
+      "width_table_offset": "0x0370fd"
+    },
+    "0x4A": {
+      "code": 74,
+      "char_cp1251": "J",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370fe"
+    },
+    "0x4B": {
+      "code": 75,
+      "char_cp1251": "K",
+      "width_pixels": 6,
+      "width_table_offset": "0x0370ff"
+    },
+    "0x4C": {
+      "code": 76,
+      "char_cp1251": "L",
+      "width_pixels": 6,
+      "width_table_offset": "0x037100"
+    },
+    "0x4D": {
+      "code": 77,
+      "char_cp1251": "M",
+      "width_pixels": 8,
+      "width_table_offset": "0x037101"
+    },
+    "0x4E": {
+      "code": 78,
+      "char_cp1251": "N",
+      "width_pixels": 6,
+      "width_table_offset": "0x037102"
+    },
+    "0x4F": {
+      "code": 79,
+      "char_cp1251": "O",
+      "width_pixels": 6,
+      "width_table_offset": "0x037103"
+    },
+    "0x50": {
+      "code": 80,
+      "char_cp1251": "P",
+      "width_pixels": 6,
+      "width_table_offset": "0x037104"
+    },
+    "0x51": {
+      "code": 81,
+      "char_cp1251": "Q",
+      "width_pixels": 6,
+      "width_table_offset": "0x037105"
+    },
+    "0x52": {
+      "code": 82,
+      "char_cp1251": "R",
+      "width_pixels": 6,
+      "width_table_offset": "0x037106"
+    },
+    "0x53": {
+      "code": 83,
+      "char_cp1251": "S",
+      "width_pixels": 6,
+      "width_table_offset": "0x037107"
+    },
+    "0x54": {
+      "code": 84,
+      "char_cp1251": "T",
+      "width_pixels": 6,
+      "width_table_offset": "0x037108"
+    },
+    "0x55": {
+      "code": 85,
+      "char_cp1251": "U",
+      "width_pixels": 6,
+      "width_table_offset": "0x037109"
+    },
+    "0x56": {
+      "code": 86,
+      "char_cp1251": "V",
+      "width_pixels": 6,
+      "width_table_offset": "0x03710a"
+    },
+    "0x57": {
+      "code": 87,
+      "char_cp1251": "W",
+      "width_pixels": 8,
+      "width_table_offset": "0x03710b"
+    },
+    "0x58": {
+      "code": 88,
+      "char_cp1251": "X",
+      "width_pixels": 6,
+      "width_table_offset": "0x03710c"
+    },
+    "0x59": {
+      "code": 89,
+      "char_cp1251": "Y",
+      "width_pixels": 6,
+      "width_table_offset": "0x03710d"
+    },
+    "0x5A": {
+      "code": 90,
+      "char_cp1251": "Z",
+      "width_pixels": 6,
+      "width_table_offset": "0x03710e"
+    },
+    "0x5B": {
+      "code": 91,
+      "char_cp1251": "[",
+      "width_pixels": 5,
+      "width_table_offset": "0x03710f"
+    },
+    "0x5C": {
+      "code": 92,
+      "char_cp1251": "\\",
+      "width_pixels": 6,
+      "width_table_offset": "0x037110"
+    },
+    "0x5D": {
+      "code": 93,
+      "char_cp1251": "]",
+      "width_pixels": 5,
+      "width_table_offset": "0x037111"
+    },
+    "0x5E": {
+      "code": 94,
+      "char_cp1251": "^",
+      "width_pixels": 6,
+      "width_table_offset": "0x037112"
+    },
+    "0x5F": {
+      "code": 95,
+      "char_cp1251": "_",
+      "width_pixels": 6,
+      "width_table_offset": "0x037113"
+    },
+    "0x60": {
+      "code": 96,
+      "char_cp1251": "`",
+      "width_pixels": 6,
+      "width_table_offset": "0x037114"
+    },
+    "0x61": {
+      "code": 97,
+      "char_cp1251": "a",
+      "width_pixels": 6,
+      "width_table_offset": "0x037115"
+    },
+    "0x62": {
+      "code": 98,
+      "char_cp1251": "b",
+      "width_pixels": 6,
+      "width_table_offset": "0x037116"
+    },
+    "0x63": {
+      "code": 99,
+      "char_cp1251": "c",
+      "width_pixels": 6,
+      "width_table_offset": "0x037117"
+    },
+    "0x64": {
+      "code": 100,
+      "char_cp1251": "d",
+      "width_pixels": 6,
+      "width_table_offset": "0x037118"
+    },
+    "0x65": {
+      "code": 101,
+      "char_cp1251": "e",
+      "width_pixels": 6,
+      "width_table_offset": "0x037119"
+    },
+    "0x66": {
+      "code": 102,
+      "char_cp1251": "f",
+      "width_pixels": 5,
+      "width_table_offset": "0x03711a"
+    },
+    "0x67": {
+      "code": 103,
+      "char_cp1251": "g",
+      "width_pixels": 6,
+      "width_table_offset": "0x03711b"
+    },
+    "0x68": {
+      "code": 104,
+      "char_cp1251": "h",
+      "width_pixels": 6,
+      "width_table_offset": "0x03711c"
+    },
+    "0x69": {
+      "code": 105,
+      "char_cp1251": "i",
+      "width_pixels": 4,
+      "width_table_offset": "0x03711d"
+    },
+    "0x6A": {
+      "code": 106,
+      "char_cp1251": "j",
+      "width_pixels": 4,
+      "width_table_offset": "0x03711e"
+    },
+    "0x6B": {
+      "code": 107,
+      "char_cp1251": "k",
+      "width_pixels": 5,
+      "width_table_offset": "0x03711f"
+    },
+    "0x6C": {
+      "code": 108,
+      "char_cp1251": "l",
+      "width_pixels": 4,
+      "width_table_offset": "0x037120"
+    },
+    "0x6D": {
+      "code": 109,
+      "char_cp1251": "m",
+      "width_pixels": 8,
+      "width_table_offset": "0x037121"
+    },
+    "0x6E": {
+      "code": 110,
+      "char_cp1251": "n",
+      "width_pixels": 6,
+      "width_table_offset": "0x037122"
+    },
+    "0x6F": {
+      "code": 111,
+      "char_cp1251": "o",
+      "width_pixels": 6,
+      "width_table_offset": "0x037123"
+    },
+    "0x70": {
+      "code": 112,
+      "char_cp1251": "p",
+      "width_pixels": 6,
+      "width_table_offset": "0x037124"
+    },
+    "0x71": {
+      "code": 113,
+      "char_cp1251": "q",
+      "width_pixels": 6,
+      "width_table_offset": "0x037125"
+    },
+    "0x72": {
+      "code": 114,
+      "char_cp1251": "r",
+      "width_pixels": 6,
+      "width_table_offset": "0x037126"
+    },
+    "0x73": {
+      "code": 115,
+      "char_cp1251": "s",
+      "width_pixels": 6,
+      "width_table_offset": "0x037127"
+    },
+    "0x74": {
+      "code": 116,
+      "char_cp1251": "t",
+      "width_pixels": 5,
+      "width_table_offset": "0x037128"
+    },
+    "0x75": {
+      "code": 117,
+      "char_cp1251": "u",
+      "width_pixels": 6,
+      "width_table_offset": "0x037129"
+    },
+    "0x76": {
+      "code": 118,
+      "char_cp1251": "v",
+      "width_pixels": 6,
+      "width_table_offset": "0x03712a"
+    },
+    "0x77": {
+      "code": 119,
+      "char_cp1251": "w",
+      "width_pixels": 8,
+      "width_table_offset": "0x03712b"
+    },
+    "0x78": {
+      "code": 120,
+      "char_cp1251": "x",
+      "width_pixels": 6,
+      "width_table_offset": "0x03712c"
+    },
+    "0x79": {
+      "code": 121,
+      "char_cp1251": "y",
+      "width_pixels": 6,
+      "width_table_offset": "0x03712d"
+    },
+    "0x7A": {
+      "code": 122,
+      "char_cp1251": "z",
+      "width_pixels": 6,
+      "width_table_offset": "0x03712e"
+    },
+    "0x7B": {
+      "code": 123,
+      "char_cp1251": "{",
+      "width_pixels": 5,
+      "width_table_offset": "0x03712f"
+    },
+    "0x7C": {
+      "code": 124,
+      "char_cp1251": "|",
+      "width_pixels": 4,
+      "width_table_offset": "0x037130"
+    },
+    "0x7D": {
+      "code": 125,
+      "char_cp1251": "}",
+      "width_pixels": 5,
+      "width_table_offset": "0x037131"
+    },
+    "0x7E": {
+      "code": 126,
+      "char_cp1251": "~",
+      "width_pixels": 7,
+      "width_table_offset": "0x037132"
+    },
+    "0x7F": {
+      "code": 127,
+      "char_cp1251": "<CTRL_7F>",
+      "width_pixels": 1,
+      "width_table_offset": "0x037133"
+    },
+    "0x80": {
+      "code": 128,
+      "char_cp1251": "Ђ",
+      "width_pixels": 8,
+      "width_table_offset": "0x037134"
+    },
+    "0x81": {
+      "code": 129,
+      "char_cp1251": "Ѓ",
+      "width_pixels": 2,
+      "width_table_offset": "0x037135"
+    },
+    "0x82": {
+      "code": 130,
+      "char_cp1251": "‚",
+      "width_pixels": 8,
+      "width_table_offset": "0x037136"
+    },
+    "0x83": {
+      "code": 131,
+      "char_cp1251": "ѓ",
+      "width_pixels": 2,
+      "width_table_offset": "0x037137"
+    },
+    "0x84": {
+      "code": 132,
+      "char_cp1251": "„",
+      "width_pixels": 8,
+      "width_table_offset": "0x037138"
+    },
+    "0x85": {
+      "code": 133,
+      "char_cp1251": "…",
+      "width_pixels": 6,
+      "width_table_offset": "0x037139"
+    },
+    "0x86": {
+      "code": 134,
+      "char_cp1251": "†",
+      "width_pixels": 8,
+      "width_table_offset": "0x03713a"
+    },
+    "0x87": {
+      "code": 135,
+      "char_cp1251": "‡",
+      "width_pixels": 6,
+      "width_table_offset": "0x03713b"
+    },
+    "0x88": {
+      "code": 136,
+      "char_cp1251": "€",
+      "width_pixels": 8,
+      "width_table_offset": "0x03713c"
+    },
+    "0x89": {
+      "code": 137,
+      "char_cp1251": "‰",
+      "width_pixels": 4,
+      "width_table_offset": "0x03713d"
+    },
+    "0x8A": {
+      "code": 138,
+      "char_cp1251": "Љ",
+      "width_pixels": 8,
+      "width_table_offset": "0x03713e"
+    },
+    "0x8B": {
+      "code": 139,
+      "char_cp1251": "‹",
+      "width_pixels": 4,
+      "width_table_offset": "0x03713f"
+    },
+    "0x8C": {
+      "code": 140,
+      "char_cp1251": "Њ",
+      "width_pixels": 8,
+      "width_table_offset": "0x037140"
+    },
+    "0x8D": {
+      "code": 141,
+      "char_cp1251": "Ќ",
+      "width_pixels": 7,
+      "width_table_offset": "0x037141"
+    },
+    "0x8E": {
+      "code": 142,
+      "char_cp1251": "Ћ",
+      "width_pixels": 7,
+      "width_table_offset": "0x037142"
+    },
+    "0x8F": {
+      "code": 143,
+      "char_cp1251": "Џ",
+      "width_pixels": 7,
+      "width_table_offset": "0x037143"
+    },
+    "0x90": {
+      "code": 144,
+      "char_cp1251": "ђ",
+      "width_pixels": 1,
+      "width_table_offset": "0x037144"
+    },
+    "0x91": {
+      "code": 145,
+      "char_cp1251": "‘",
+      "width_pixels": 1,
+      "width_table_offset": "0x037145"
+    },
+    "0x92": {
+      "code": 146,
+      "char_cp1251": "’",
+      "width_pixels": 1,
+      "width_table_offset": "0x037146"
+    },
+    "0x93": {
+      "code": 147,
+      "char_cp1251": "“",
+      "width_pixels": 1,
+      "width_table_offset": "0x037147"
+    },
+    "0x94": {
+      "code": 148,
+      "char_cp1251": "”",
+      "width_pixels": 1,
+      "width_table_offset": "0x037148"
+    },
+    "0x95": {
+      "code": 149,
+      "char_cp1251": "•",
+      "width_pixels": 1,
+      "width_table_offset": "0x037149"
+    },
+    "0x96": {
+      "code": 150,
+      "char_cp1251": "–",
+      "width_pixels": 1,
+      "width_table_offset": "0x03714a"
+    },
+    "0x97": {
+      "code": 151,
+      "char_cp1251": "—",
+      "width_pixels": 1,
+      "width_table_offset": "0x03714b"
+    },
+    "0x98": {
+      "code": 152,
+      "char_cp1251": "<UNMAPPED_98>",
+      "width_pixels": 1,
+      "width_table_offset": "0x03714c"
+    },
+    "0x99": {
+      "code": 153,
+      "char_cp1251": "™",
+      "width_pixels": 1,
+      "width_table_offset": "0x03714d"
+    },
+    "0x9A": {
+      "code": 154,
+      "char_cp1251": "љ",
+      "width_pixels": 1,
+      "width_table_offset": "0x03714e"
+    },
+    "0x9B": {
+      "code": 155,
+      "char_cp1251": "›",
+      "width_pixels": 1,
+      "width_table_offset": "0x03714f"
+    },
+    "0x9C": {
+      "code": 156,
+      "char_cp1251": "њ",
+      "width_pixels": 1,
+      "width_table_offset": "0x037150"
+    },
+    "0x9D": {
+      "code": 157,
+      "char_cp1251": "ќ",
+      "width_pixels": 1,
+      "width_table_offset": "0x037151"
+    },
+    "0x9E": {
+      "code": 158,
+      "char_cp1251": "ћ",
+      "width_pixels": 1,
+      "width_table_offset": "0x037152"
+    },
+    "0x9F": {
+      "code": 159,
+      "char_cp1251": "џ",
+      "width_pixels": 1,
+      "width_table_offset": "0x037153"
+    },
+    "0xA0": {
+      "code": 160,
+      "char_cp1251": "<CTRL_A0>",
+      "width_pixels": 1,
+      "width_table_offset": "0x037154"
+    },
+    "0xA1": {
+      "code": 161,
+      "char_cp1251": "Ў",
+      "width_pixels": 4,
+      "width_table_offset": "0x037155"
+    },
+    "0xA2": {
+      "code": 162,
+      "char_cp1251": "ў",
+      "width_pixels": 1,
+      "width_table_offset": "0x037156"
+    },
+    "0xA3": {
+      "code": 163,
+      "char_cp1251": "Ј",
+      "width_pixels": 1,
+      "width_table_offset": "0x037157"
+    },
+    "0xA4": {
+      "code": 164,
+      "char_cp1251": "¤",
+      "width_pixels": 1,
+      "width_table_offset": "0x037158"
+    },
+    "0xA5": {
+      "code": 165,
+      "char_cp1251": "Ґ",
+      "width_pixels": 1,
+      "width_table_offset": "0x037159"
+    },
+    "0xA6": {
+      "code": 166,
+      "char_cp1251": "¦",
+      "width_pixels": 1,
+      "width_table_offset": "0x03715a"
+    },
+    "0xA7": {
+      "code": 167,
+      "char_cp1251": "§",
+      "width_pixels": 1,
+      "width_table_offset": "0x03715b"
+    },
+    "0xA8": {
+      "code": 168,
+      "char_cp1251": "Ё",
+      "width_pixels": 6,
+      "width_table_offset": "0x03715c"
+    },
+    "0xA9": {
+      "code": 169,
+      "char_cp1251": "©",
+      "width_pixels": 1,
+      "width_table_offset": "0x03715d"
+    },
+    "0xAA": {
+      "code": 170,
+      "char_cp1251": "Є",
+      "width_pixels": 6,
+      "width_table_offset": "0x03715e"
+    },
+    "0xAB": {
+      "code": 171,
+      "char_cp1251": "«",
+      "width_pixels": 1,
+      "width_table_offset": "0x03715f"
+    },
+    "0xAC": {
+      "code": 172,
+      "char_cp1251": "¬",
+      "width_pixels": 1,
+      "width_table_offset": "0x037160"
+    },
+    "0xAD": {
+      "code": 173,
+      "char_cp1251": "<CTRL_AD>",
+      "width_pixels": 1,
+      "width_table_offset": "0x037161"
+    },
+    "0xAE": {
+      "code": 174,
+      "char_cp1251": "®",
+      "width_pixels": 1,
+      "width_table_offset": "0x037162"
+    },
+    "0xAF": {
+      "code": 175,
+      "char_cp1251": "Ї",
+      "width_pixels": 1,
+      "width_table_offset": "0x037163"
+    },
+    "0xB0": {
+      "code": 176,
+      "char_cp1251": "°",
+      "width_pixels": 1,
+      "width_table_offset": "0x037164"
+    },
+    "0xB1": {
+      "code": 177,
+      "char_cp1251": "±",
+      "width_pixels": 1,
+      "width_table_offset": "0x037165"
+    },
+    "0xB2": {
+      "code": 178,
+      "char_cp1251": "І",
+      "width_pixels": 1,
+      "width_table_offset": "0x037166"
+    },
+    "0xB3": {
+      "code": 179,
+      "char_cp1251": "і",
+      "width_pixels": 1,
+      "width_table_offset": "0x037167"
+    },
+    "0xB4": {
+      "code": 180,
+      "char_cp1251": "ґ",
+      "width_pixels": 1,
+      "width_table_offset": "0x037168"
+    },
+    "0xB5": {
+      "code": 181,
+      "char_cp1251": "µ",
+      "width_pixels": 1,
+      "width_table_offset": "0x037169"
+    },
+    "0xB6": {
+      "code": 182,
+      "char_cp1251": "¶",
+      "width_pixels": 1,
+      "width_table_offset": "0x03716a"
+    },
+    "0xB7": {
+      "code": 183,
+      "char_cp1251": "·",
+      "width_pixels": 1,
+      "width_table_offset": "0x03716b"
+    },
+    "0xB8": {
+      "code": 184,
+      "char_cp1251": "ё",
+      "width_pixels": 6,
+      "width_table_offset": "0x03716c"
+    },
+    "0xB9": {
+      "code": 185,
+      "char_cp1251": "№",
+      "width_pixels": 1,
+      "width_table_offset": "0x03716d"
+    },
+    "0xBA": {
+      "code": 186,
+      "char_cp1251": "є",
+      "width_pixels": 6,
+      "width_table_offset": "0x03716e"
+    },
+    "0xBB": {
+      "code": 187,
+      "char_cp1251": "»",
+      "width_pixels": 1,
+      "width_table_offset": "0x03716f"
+    },
+    "0xBC": {
+      "code": 188,
+      "char_cp1251": "ј",
+      "width_pixels": 1,
+      "width_table_offset": "0x037170"
+    },
+    "0xBD": {
+      "code": 189,
+      "char_cp1251": "Ѕ",
+      "width_pixels": 8,
+      "width_table_offset": "0x037171"
+    },
+    "0xBE": {
+      "code": 190,
+      "char_cp1251": "ѕ",
+      "width_pixels": 8,
+      "width_table_offset": "0x037172"
+    },
+    "0xBF": {
+      "code": 191,
+      "char_cp1251": "ї",
+      "width_pixels": 6,
+      "width_table_offset": "0x037173"
+    },
+    "0xC0": {
+      "code": 192,
+      "char_cp1251": "А",
+      "width_pixels": 6,
+      "width_table_offset": "0x037174"
+    },
+    "0xC1": {
+      "code": 193,
+      "char_cp1251": "Б",
+      "width_pixels": 6,
+      "width_table_offset": "0x037175"
+    },
+    "0xC2": {
+      "code": 194,
+      "char_cp1251": "В",
+      "width_pixels": 6,
+      "width_table_offset": "0x037176"
+    },
+    "0xC3": {
+      "code": 195,
+      "char_cp1251": "Г",
+      "width_pixels": 6,
+      "width_table_offset": "0x037177"
+    },
+    "0xC4": {
+      "code": 196,
+      "char_cp1251": "Д",
+      "width_pixels": 7,
+      "width_table_offset": "0x037178"
+    },
+    "0xC5": {
+      "code": 197,
+      "char_cp1251": "Е",
+      "width_pixels": 6,
+      "width_table_offset": "0x037179"
+    },
+    "0xC6": {
+      "code": 198,
+      "char_cp1251": "Ж",
+      "width_pixels": 8,
+      "width_table_offset": "0x03717a"
+    },
+    "0xC7": {
+      "code": 199,
+      "char_cp1251": "З",
+      "width_pixels": 7,
+      "width_table_offset": "0x03717b"
+    },
+    "0xC8": {
+      "code": 200,
+      "char_cp1251": "И",
+      "width_pixels": 6,
+      "width_table_offset": "0x03717c"
+    },
+    "0xC9": {
+      "code": 201,
+      "char_cp1251": "Й",
+      "width_pixels": 6,
+      "width_table_offset": "0x03717d"
+    },
+    "0xCA": {
+      "code": 202,
+      "char_cp1251": "К",
+      "width_pixels": 6,
+      "width_table_offset": "0x03717e"
+    },
+    "0xCB": {
+      "code": 203,
+      "char_cp1251": "Л",
+      "width_pixels": 6,
+      "width_table_offset": "0x03717f"
+    },
+    "0xCC": {
+      "code": 204,
+      "char_cp1251": "М",
+      "width_pixels": 8,
+      "width_table_offset": "0x037180"
+    },
+    "0xCD": {
+      "code": 205,
+      "char_cp1251": "Н",
+      "width_pixels": 6,
+      "width_table_offset": "0x037181"
+    },
+    "0xCE": {
+      "code": 206,
+      "char_cp1251": "О",
+      "width_pixels": 6,
+      "width_table_offset": "0x037182"
+    },
+    "0xCF": {
+      "code": 207,
+      "char_cp1251": "П",
+      "width_pixels": 6,
+      "width_table_offset": "0x037183"
+    },
+    "0xD0": {
+      "code": 208,
+      "char_cp1251": "Р",
+      "width_pixels": 6,
+      "width_table_offset": "0x037184"
+    },
+    "0xD1": {
+      "code": 209,
+      "char_cp1251": "С",
+      "width_pixels": 6,
+      "width_table_offset": "0x037185"
+    },
+    "0xD2": {
+      "code": 210,
+      "char_cp1251": "Т",
+      "width_pixels": 6,
+      "width_table_offset": "0x037186"
+    },
+    "0xD3": {
+      "code": 211,
+      "char_cp1251": "У",
+      "width_pixels": 6,
+      "width_table_offset": "0x037187"
+    },
+    "0xD4": {
+      "code": 212,
+      "char_cp1251": "Ф",
+      "width_pixels": 8,
+      "width_table_offset": "0x037188"
+    },
+    "0xD5": {
+      "code": 213,
+      "char_cp1251": "Х",
+      "width_pixels": 6,
+      "width_table_offset": "0x037189"
+    },
+    "0xD6": {
+      "code": 214,
+      "char_cp1251": "Ц",
+      "width_pixels": 7,
+      "width_table_offset": "0x03718a"
+    },
+    "0xD7": {
+      "code": 215,
+      "char_cp1251": "Ч",
+      "width_pixels": 6,
+      "width_table_offset": "0x03718b"
+    },
+    "0xD8": {
+      "code": 216,
+      "char_cp1251": "Ш",
+      "width_pixels": 8,
+      "width_table_offset": "0x03718c"
+    },
+    "0xD9": {
+      "code": 217,
+      "char_cp1251": "Щ",
+      "width_pixels": 8,
+      "width_table_offset": "0x03718d"
+    },
+    "0xDA": {
+      "code": 218,
+      "char_cp1251": "Ъ",
+      "width_pixels": 8,
+      "width_table_offset": "0x03718e"
+    },
+    "0xDB": {
+      "code": 219,
+      "char_cp1251": "Ы",
+      "width_pixels": 8,
+      "width_table_offset": "0x03718f"
+    },
+    "0xDC": {
+      "code": 220,
+      "char_cp1251": "Ь",
+      "width_pixels": 6,
+      "width_table_offset": "0x037190"
+    },
+    "0xDD": {
+      "code": 221,
+      "char_cp1251": "Э",
+      "width_pixels": 7,
+      "width_table_offset": "0x037191"
+    },
+    "0xDE": {
+      "code": 222,
+      "char_cp1251": "Ю",
+      "width_pixels": 8,
+      "width_table_offset": "0x037192"
+    },
+    "0xDF": {
+      "code": 223,
+      "char_cp1251": "Я",
+      "width_pixels": 6,
+      "width_table_offset": "0x037193"
+    },
+    "0xE0": {
+      "code": 224,
+      "char_cp1251": "а",
+      "width_pixels": 6,
+      "width_table_offset": "0x037194"
+    },
+    "0xE1": {
+      "code": 225,
+      "char_cp1251": "б",
+      "width_pixels": 6,
+      "width_table_offset": "0x037195"
+    },
+    "0xE2": {
+      "code": 226,
+      "char_cp1251": "в",
+      "width_pixels": 6,
+      "width_table_offset": "0x037196"
+    },
+    "0xE3": {
+      "code": 227,
+      "char_cp1251": "г",
+      "width_pixels": 6,
+      "width_table_offset": "0x037197"
+    },
+    "0xE4": {
+      "code": 228,
+      "char_cp1251": "д",
+      "width_pixels": 6,
+      "width_table_offset": "0x037198"
+    },
+    "0xE5": {
+      "code": 229,
+      "char_cp1251": "е",
+      "width_pixels": 6,
+      "width_table_offset": "0x037199"
+    },
+    "0xE6": {
+      "code": 230,
+      "char_cp1251": "ж",
+      "width_pixels": 6,
+      "width_table_offset": "0x03719a"
+    },
+    "0xE7": {
+      "code": 231,
+      "char_cp1251": "з",
+      "width_pixels": 6,
+      "width_table_offset": "0x03719b"
+    },
+    "0xE8": {
+      "code": 232,
+      "char_cp1251": "и",
+      "width_pixels": 6,
+      "width_table_offset": "0x03719c"
+    },
+    "0xE9": {
+      "code": 233,
+      "char_cp1251": "й",
+      "width_pixels": 6,
+      "width_table_offset": "0x03719d"
+    },
+    "0xEA": {
+      "code": 234,
+      "char_cp1251": "к",
+      "width_pixels": 5,
+      "width_table_offset": "0x03719e"
+    },
+    "0xEB": {
+      "code": 235,
+      "char_cp1251": "л",
+      "width_pixels": 6,
+      "width_table_offset": "0x03719f"
+    },
+    "0xEC": {
+      "code": 236,
+      "char_cp1251": "м",
+      "width_pixels": 8,
+      "width_table_offset": "0x0371a0"
+    },
+    "0xED": {
+      "code": 237,
+      "char_cp1251": "н",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371a1"
+    },
+    "0xEE": {
+      "code": 238,
+      "char_cp1251": "о",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371a2"
+    },
+    "0xEF": {
+      "code": 239,
+      "char_cp1251": "п",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371a3"
+    },
+    "0xF0": {
+      "code": 240,
+      "char_cp1251": "р",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371a4"
+    },
+    "0xF1": {
+      "code": 241,
+      "char_cp1251": "с",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371a5"
+    },
+    "0xF2": {
+      "code": 242,
+      "char_cp1251": "т",
+      "width_pixels": 8,
+      "width_table_offset": "0x0371a6"
+    },
+    "0xF3": {
+      "code": 243,
+      "char_cp1251": "у",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371a7"
+    },
+    "0xF4": {
+      "code": 244,
+      "char_cp1251": "ф",
+      "width_pixels": 8,
+      "width_table_offset": "0x0371a8"
+    },
+    "0xF5": {
+      "code": 245,
+      "char_cp1251": "х",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371a9"
+    },
+    "0xF6": {
+      "code": 246,
+      "char_cp1251": "ц",
+      "width_pixels": 7,
+      "width_table_offset": "0x0371aa"
+    },
+    "0xF7": {
+      "code": 247,
+      "char_cp1251": "ч",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371ab"
+    },
+    "0xF8": {
+      "code": 248,
+      "char_cp1251": "ш",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371ac"
+    },
+    "0xF9": {
+      "code": 249,
+      "char_cp1251": "щ",
+      "width_pixels": 7,
+      "width_table_offset": "0x0371ad"
+    },
+    "0xFA": {
+      "code": 250,
+      "char_cp1251": "ъ",
+      "width_pixels": 8,
+      "width_table_offset": "0x0371ae"
+    },
+    "0xFB": {
+      "code": 251,
+      "char_cp1251": "ы",
+      "width_pixels": 8,
+      "width_table_offset": "0x0371af"
+    },
+    "0xFC": {
+      "code": 252,
+      "char_cp1251": "ь",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371b0"
+    },
+    "0xFD": {
+      "code": 253,
+      "char_cp1251": "э",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371b1"
+    },
+    "0xFE": {
+      "code": 254,
+      "char_cp1251": "ю",
+      "width_pixels": 8,
+      "width_table_offset": "0x0371b2"
+    },
+    "0xFF": {
+      "code": 255,
+      "char_cp1251": "я",
+      "width_pixels": 6,
+      "width_table_offset": "0x0371b3"
+    }
+  }
+}

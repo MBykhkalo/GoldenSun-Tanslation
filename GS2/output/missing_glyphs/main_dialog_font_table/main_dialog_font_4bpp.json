@@ -1,0 +1,2029 @@
+{
+  "source_rom": "GS2/output/temp/golden_sun_2_ukr.gba",
+  "font_table_offset": "0x682430",
+  "width_table_offset": "0x05F484",
+  "format": "GBA 4bpp linear, 8x8, 32 bytes per glyph; open directly in YY-CHR as 4BPP GBA",
+  "width_note": "Edit glyphs[*].width_pixels, then run inject_main_font.py. Values are written to the GS2 VWF width table.",
+  "base_code": "0x20",
+  "tile_count": 224,
+  "tile_bytes": 32,
+  "font_bin": "GS2/output/missing_glyphs/main_dialog_font_table/main_dialog_font_4bpp.bin",
+  "glyphs": [
+    {
+      "code": "0x20",
+      "char_cp1251": " ",
+      "tile_index": 0,
+      "bin_offset": "0x0000",
+      "rom_offset": "0x682430",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F484"
+    },
+    {
+      "code": "0x21",
+      "char_cp1251": "!",
+      "tile_index": 1,
+      "bin_offset": "0x0020",
+      "rom_offset": "0x682450",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F485"
+    },
+    {
+      "code": "0x22",
+      "char_cp1251": "\"",
+      "tile_index": 2,
+      "bin_offset": "0x0040",
+      "rom_offset": "0x682470",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F486"
+    },
+    {
+      "code": "0x23",
+      "char_cp1251": "#",
+      "tile_index": 3,
+      "bin_offset": "0x0060",
+      "rom_offset": "0x682490",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F487"
+    },
+    {
+      "code": "0x24",
+      "char_cp1251": "$",
+      "tile_index": 4,
+      "bin_offset": "0x0080",
+      "rom_offset": "0x6824B0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F488"
+    },
+    {
+      "code": "0x25",
+      "char_cp1251": "%",
+      "tile_index": 5,
+      "bin_offset": "0x00A0",
+      "rom_offset": "0x6824D0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F489"
+    },
+    {
+      "code": "0x26",
+      "char_cp1251": "&",
+      "tile_index": 6,
+      "bin_offset": "0x00C0",
+      "rom_offset": "0x6824F0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F48A"
+    },
+    {
+      "code": "0x27",
+      "char_cp1251": "'",
+      "tile_index": 7,
+      "bin_offset": "0x00E0",
+      "rom_offset": "0x682510",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F48B"
+    },
+    {
+      "code": "0x28",
+      "char_cp1251": "(",
+      "tile_index": 8,
+      "bin_offset": "0x0100",
+      "rom_offset": "0x682530",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F48C"
+    },
+    {
+      "code": "0x29",
+      "char_cp1251": ")",
+      "tile_index": 9,
+      "bin_offset": "0x0120",
+      "rom_offset": "0x682550",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F48D"
+    },
+    {
+      "code": "0x2A",
+      "char_cp1251": "*",
+      "tile_index": 10,
+      "bin_offset": "0x0140",
+      "rom_offset": "0x682570",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F48E"
+    },
+    {
+      "code": "0x2B",
+      "char_cp1251": "+",
+      "tile_index": 11,
+      "bin_offset": "0x0160",
+      "rom_offset": "0x682590",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F48F"
+    },
+    {
+      "code": "0x2C",
+      "char_cp1251": ",",
+      "tile_index": 12,
+      "bin_offset": "0x0180",
+      "rom_offset": "0x6825B0",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F490"
+    },
+    {
+      "code": "0x2D",
+      "char_cp1251": "-",
+      "tile_index": 13,
+      "bin_offset": "0x01A0",
+      "rom_offset": "0x6825D0",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F491"
+    },
+    {
+      "code": "0x2E",
+      "char_cp1251": ".",
+      "tile_index": 14,
+      "bin_offset": "0x01C0",
+      "rom_offset": "0x6825F0",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F492"
+    },
+    {
+      "code": "0x2F",
+      "char_cp1251": "/",
+      "tile_index": 15,
+      "bin_offset": "0x01E0",
+      "rom_offset": "0x682610",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F493"
+    },
+    {
+      "code": "0x30",
+      "char_cp1251": "0",
+      "tile_index": 16,
+      "bin_offset": "0x0200",
+      "rom_offset": "0x682630",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F494"
+    },
+    {
+      "code": "0x31",
+      "char_cp1251": "1",
+      "tile_index": 17,
+      "bin_offset": "0x0220",
+      "rom_offset": "0x682650",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F495"
+    },
+    {
+      "code": "0x32",
+      "char_cp1251": "2",
+      "tile_index": 18,
+      "bin_offset": "0x0240",
+      "rom_offset": "0x682670",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F496"
+    },
+    {
+      "code": "0x33",
+      "char_cp1251": "3",
+      "tile_index": 19,
+      "bin_offset": "0x0260",
+      "rom_offset": "0x682690",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F497"
+    },
+    {
+      "code": "0x34",
+      "char_cp1251": "4",
+      "tile_index": 20,
+      "bin_offset": "0x0280",
+      "rom_offset": "0x6826B0",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F498"
+    },
+    {
+      "code": "0x35",
+      "char_cp1251": "5",
+      "tile_index": 21,
+      "bin_offset": "0x02A0",
+      "rom_offset": "0x6826D0",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F499"
+    },
+    {
+      "code": "0x36",
+      "char_cp1251": "6",
+      "tile_index": 22,
+      "bin_offset": "0x02C0",
+      "rom_offset": "0x6826F0",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F49A"
+    },
+    {
+      "code": "0x37",
+      "char_cp1251": "7",
+      "tile_index": 23,
+      "bin_offset": "0x02E0",
+      "rom_offset": "0x682710",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F49B"
+    },
+    {
+      "code": "0x38",
+      "char_cp1251": "8",
+      "tile_index": 24,
+      "bin_offset": "0x0300",
+      "rom_offset": "0x682730",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F49C"
+    },
+    {
+      "code": "0x39",
+      "char_cp1251": "9",
+      "tile_index": 25,
+      "bin_offset": "0x0320",
+      "rom_offset": "0x682750",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F49D"
+    },
+    {
+      "code": "0x3A",
+      "char_cp1251": ":",
+      "tile_index": 26,
+      "bin_offset": "0x0340",
+      "rom_offset": "0x682770",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F49E"
+    },
+    {
+      "code": "0x3B",
+      "char_cp1251": ";",
+      "tile_index": 27,
+      "bin_offset": "0x0360",
+      "rom_offset": "0x682790",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F49F"
+    },
+    {
+      "code": "0x3C",
+      "char_cp1251": "<",
+      "tile_index": 28,
+      "bin_offset": "0x0380",
+      "rom_offset": "0x6827B0",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F4A0"
+    },
+    {
+      "code": "0x3D",
+      "char_cp1251": "=",
+      "tile_index": 29,
+      "bin_offset": "0x03A0",
+      "rom_offset": "0x6827D0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4A1"
+    },
+    {
+      "code": "0x3E",
+      "char_cp1251": ">",
+      "tile_index": 30,
+      "bin_offset": "0x03C0",
+      "rom_offset": "0x6827F0",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F4A2"
+    },
+    {
+      "code": "0x3F",
+      "char_cp1251": "?",
+      "tile_index": 31,
+      "bin_offset": "0x03E0",
+      "rom_offset": "0x682810",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4A3"
+    },
+    {
+      "code": "0x40",
+      "char_cp1251": "@",
+      "tile_index": 32,
+      "bin_offset": "0x0400",
+      "rom_offset": "0x682830",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4A4"
+    },
+    {
+      "code": "0x41",
+      "char_cp1251": "A",
+      "tile_index": 33,
+      "bin_offset": "0x0420",
+      "rom_offset": "0x682850",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4A5"
+    },
+    {
+      "code": "0x42",
+      "char_cp1251": "B",
+      "tile_index": 34,
+      "bin_offset": "0x0440",
+      "rom_offset": "0x682870",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4A6"
+    },
+    {
+      "code": "0x43",
+      "char_cp1251": "C",
+      "tile_index": 35,
+      "bin_offset": "0x0460",
+      "rom_offset": "0x682890",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4A7"
+    },
+    {
+      "code": "0x44",
+      "char_cp1251": "D",
+      "tile_index": 36,
+      "bin_offset": "0x0480",
+      "rom_offset": "0x6828B0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4A8"
+    },
+    {
+      "code": "0x45",
+      "char_cp1251": "E",
+      "tile_index": 37,
+      "bin_offset": "0x04A0",
+      "rom_offset": "0x6828D0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4A9"
+    },
+    {
+      "code": "0x46",
+      "char_cp1251": "F",
+      "tile_index": 38,
+      "bin_offset": "0x04C0",
+      "rom_offset": "0x6828F0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4AA"
+    },
+    {
+      "code": "0x47",
+      "char_cp1251": "G",
+      "tile_index": 39,
+      "bin_offset": "0x04E0",
+      "rom_offset": "0x682910",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4AB"
+    },
+    {
+      "code": "0x48",
+      "char_cp1251": "H",
+      "tile_index": 40,
+      "bin_offset": "0x0500",
+      "rom_offset": "0x682930",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4AC"
+    },
+    {
+      "code": "0x49",
+      "char_cp1251": "I",
+      "tile_index": 41,
+      "bin_offset": "0x0520",
+      "rom_offset": "0x682950",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F4AD"
+    },
+    {
+      "code": "0x4A",
+      "char_cp1251": "J",
+      "tile_index": 42,
+      "bin_offset": "0x0540",
+      "rom_offset": "0x682970",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4AE"
+    },
+    {
+      "code": "0x4B",
+      "char_cp1251": "K",
+      "tile_index": 43,
+      "bin_offset": "0x0560",
+      "rom_offset": "0x682990",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4AF"
+    },
+    {
+      "code": "0x4C",
+      "char_cp1251": "L",
+      "tile_index": 44,
+      "bin_offset": "0x0580",
+      "rom_offset": "0x6829B0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4B0"
+    },
+    {
+      "code": "0x4D",
+      "char_cp1251": "M",
+      "tile_index": 45,
+      "bin_offset": "0x05A0",
+      "rom_offset": "0x6829D0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4B1"
+    },
+    {
+      "code": "0x4E",
+      "char_cp1251": "N",
+      "tile_index": 46,
+      "bin_offset": "0x05C0",
+      "rom_offset": "0x6829F0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4B2"
+    },
+    {
+      "code": "0x4F",
+      "char_cp1251": "O",
+      "tile_index": 47,
+      "bin_offset": "0x05E0",
+      "rom_offset": "0x682A10",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4B3"
+    },
+    {
+      "code": "0x50",
+      "char_cp1251": "P",
+      "tile_index": 48,
+      "bin_offset": "0x0600",
+      "rom_offset": "0x682A30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4B4"
+    },
+    {
+      "code": "0x51",
+      "char_cp1251": "Q",
+      "tile_index": 49,
+      "bin_offset": "0x0620",
+      "rom_offset": "0x682A50",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4B5"
+    },
+    {
+      "code": "0x52",
+      "char_cp1251": "R",
+      "tile_index": 50,
+      "bin_offset": "0x0640",
+      "rom_offset": "0x682A70",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4B6"
+    },
+    {
+      "code": "0x53",
+      "char_cp1251": "S",
+      "tile_index": 51,
+      "bin_offset": "0x0660",
+      "rom_offset": "0x682A90",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4B7"
+    },
+    {
+      "code": "0x54",
+      "char_cp1251": "T",
+      "tile_index": 52,
+      "bin_offset": "0x0680",
+      "rom_offset": "0x682AB0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4B8"
+    },
+    {
+      "code": "0x55",
+      "char_cp1251": "U",
+      "tile_index": 53,
+      "bin_offset": "0x06A0",
+      "rom_offset": "0x682AD0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4B9"
+    },
+    {
+      "code": "0x56",
+      "char_cp1251": "V",
+      "tile_index": 54,
+      "bin_offset": "0x06C0",
+      "rom_offset": "0x682AF0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4BA"
+    },
+    {
+      "code": "0x57",
+      "char_cp1251": "W",
+      "tile_index": 55,
+      "bin_offset": "0x06E0",
+      "rom_offset": "0x682B10",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4BB"
+    },
+    {
+      "code": "0x58",
+      "char_cp1251": "X",
+      "tile_index": 56,
+      "bin_offset": "0x0700",
+      "rom_offset": "0x682B30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4BC"
+    },
+    {
+      "code": "0x59",
+      "char_cp1251": "Y",
+      "tile_index": 57,
+      "bin_offset": "0x0720",
+      "rom_offset": "0x682B50",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4BD"
+    },
+    {
+      "code": "0x5A",
+      "char_cp1251": "Z",
+      "tile_index": 58,
+      "bin_offset": "0x0740",
+      "rom_offset": "0x682B70",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4BE"
+    },
+    {
+      "code": "0x5B",
+      "char_cp1251": "[",
+      "tile_index": 59,
+      "bin_offset": "0x0760",
+      "rom_offset": "0x682B90",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F4BF"
+    },
+    {
+      "code": "0x5C",
+      "char_cp1251": "\\",
+      "tile_index": 60,
+      "bin_offset": "0x0780",
+      "rom_offset": "0x682BB0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4C0"
+    },
+    {
+      "code": "0x5D",
+      "char_cp1251": "]",
+      "tile_index": 61,
+      "bin_offset": "0x07A0",
+      "rom_offset": "0x682BD0",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F4C1"
+    },
+    {
+      "code": "0x5E",
+      "char_cp1251": "^",
+      "tile_index": 62,
+      "bin_offset": "0x07C0",
+      "rom_offset": "0x682BF0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4C2"
+    },
+    {
+      "code": "0x5F",
+      "char_cp1251": "_",
+      "tile_index": 63,
+      "bin_offset": "0x07E0",
+      "rom_offset": "0x682C10",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4C3"
+    },
+    {
+      "code": "0x60",
+      "char_cp1251": "`",
+      "tile_index": 64,
+      "bin_offset": "0x0800",
+      "rom_offset": "0x682C30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4C4"
+    },
+    {
+      "code": "0x61",
+      "char_cp1251": "a",
+      "tile_index": 65,
+      "bin_offset": "0x0820",
+      "rom_offset": "0x682C50",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4C5"
+    },
+    {
+      "code": "0x62",
+      "char_cp1251": "b",
+      "tile_index": 66,
+      "bin_offset": "0x0840",
+      "rom_offset": "0x682C70",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4C6"
+    },
+    {
+      "code": "0x63",
+      "char_cp1251": "c",
+      "tile_index": 67,
+      "bin_offset": "0x0860",
+      "rom_offset": "0x682C90",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4C7"
+    },
+    {
+      "code": "0x64",
+      "char_cp1251": "d",
+      "tile_index": 68,
+      "bin_offset": "0x0880",
+      "rom_offset": "0x682CB0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4C8"
+    },
+    {
+      "code": "0x65",
+      "char_cp1251": "e",
+      "tile_index": 69,
+      "bin_offset": "0x08A0",
+      "rom_offset": "0x682CD0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4C9"
+    },
+    {
+      "code": "0x66",
+      "char_cp1251": "f",
+      "tile_index": 70,
+      "bin_offset": "0x08C0",
+      "rom_offset": "0x682CF0",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F4CA"
+    },
+    {
+      "code": "0x67",
+      "char_cp1251": "g",
+      "tile_index": 71,
+      "bin_offset": "0x08E0",
+      "rom_offset": "0x682D10",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4CB"
+    },
+    {
+      "code": "0x68",
+      "char_cp1251": "h",
+      "tile_index": 72,
+      "bin_offset": "0x0900",
+      "rom_offset": "0x682D30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4CC"
+    },
+    {
+      "code": "0x69",
+      "char_cp1251": "i",
+      "tile_index": 73,
+      "bin_offset": "0x0920",
+      "rom_offset": "0x682D50",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F4CD"
+    },
+    {
+      "code": "0x6A",
+      "char_cp1251": "j",
+      "tile_index": 74,
+      "bin_offset": "0x0940",
+      "rom_offset": "0x682D70",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F4CE"
+    },
+    {
+      "code": "0x6B",
+      "char_cp1251": "k",
+      "tile_index": 75,
+      "bin_offset": "0x0960",
+      "rom_offset": "0x682D90",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F4CF"
+    },
+    {
+      "code": "0x6C",
+      "char_cp1251": "l",
+      "tile_index": 76,
+      "bin_offset": "0x0980",
+      "rom_offset": "0x682DB0",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F4D0"
+    },
+    {
+      "code": "0x6D",
+      "char_cp1251": "m",
+      "tile_index": 77,
+      "bin_offset": "0x09A0",
+      "rom_offset": "0x682DD0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4D1"
+    },
+    {
+      "code": "0x6E",
+      "char_cp1251": "n",
+      "tile_index": 78,
+      "bin_offset": "0x09C0",
+      "rom_offset": "0x682DF0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4D2"
+    },
+    {
+      "code": "0x6F",
+      "char_cp1251": "o",
+      "tile_index": 79,
+      "bin_offset": "0x09E0",
+      "rom_offset": "0x682E10",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4D3"
+    },
+    {
+      "code": "0x70",
+      "char_cp1251": "p",
+      "tile_index": 80,
+      "bin_offset": "0x0A00",
+      "rom_offset": "0x682E30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4D4"
+    },
+    {
+      "code": "0x71",
+      "char_cp1251": "q",
+      "tile_index": 81,
+      "bin_offset": "0x0A20",
+      "rom_offset": "0x682E50",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4D5"
+    },
+    {
+      "code": "0x72",
+      "char_cp1251": "r",
+      "tile_index": 82,
+      "bin_offset": "0x0A40",
+      "rom_offset": "0x682E70",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4D6"
+    },
+    {
+      "code": "0x73",
+      "char_cp1251": "s",
+      "tile_index": 83,
+      "bin_offset": "0x0A60",
+      "rom_offset": "0x682E90",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4D7"
+    },
+    {
+      "code": "0x74",
+      "char_cp1251": "t",
+      "tile_index": 84,
+      "bin_offset": "0x0A80",
+      "rom_offset": "0x682EB0",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F4D8"
+    },
+    {
+      "code": "0x75",
+      "char_cp1251": "u",
+      "tile_index": 85,
+      "bin_offset": "0x0AA0",
+      "rom_offset": "0x682ED0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4D9"
+    },
+    {
+      "code": "0x76",
+      "char_cp1251": "v",
+      "tile_index": 86,
+      "bin_offset": "0x0AC0",
+      "rom_offset": "0x682EF0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4DA"
+    },
+    {
+      "code": "0x77",
+      "char_cp1251": "w",
+      "tile_index": 87,
+      "bin_offset": "0x0AE0",
+      "rom_offset": "0x682F10",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4DB"
+    },
+    {
+      "code": "0x78",
+      "char_cp1251": "x",
+      "tile_index": 88,
+      "bin_offset": "0x0B00",
+      "rom_offset": "0x682F30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4DC"
+    },
+    {
+      "code": "0x79",
+      "char_cp1251": "y",
+      "tile_index": 89,
+      "bin_offset": "0x0B20",
+      "rom_offset": "0x682F50",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4DD"
+    },
+    {
+      "code": "0x7A",
+      "char_cp1251": "z",
+      "tile_index": 90,
+      "bin_offset": "0x0B40",
+      "rom_offset": "0x682F70",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4DE"
+    },
+    {
+      "code": "0x7B",
+      "char_cp1251": "{",
+      "tile_index": 91,
+      "bin_offset": "0x0B60",
+      "rom_offset": "0x682F90",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F4DF"
+    },
+    {
+      "code": "0x7C",
+      "char_cp1251": "|",
+      "tile_index": 92,
+      "bin_offset": "0x0B80",
+      "rom_offset": "0x682FB0",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F4E0"
+    },
+    {
+      "code": "0x7D",
+      "char_cp1251": "}",
+      "tile_index": 93,
+      "bin_offset": "0x0BA0",
+      "rom_offset": "0x682FD0",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F4E1"
+    },
+    {
+      "code": "0x7E",
+      "char_cp1251": "~",
+      "tile_index": 94,
+      "bin_offset": "0x0BC0",
+      "rom_offset": "0x682FF0",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F4E2"
+    },
+    {
+      "code": "0x7F",
+      "char_cp1251": "",
+      "tile_index": 95,
+      "bin_offset": "0x0BE0",
+      "rom_offset": "0x683010",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4E3"
+    },
+    {
+      "code": "0x80",
+      "char_cp1251": "Ђ",
+      "tile_index": 96,
+      "bin_offset": "0x0C00",
+      "rom_offset": "0x683030",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4E4"
+    },
+    {
+      "code": "0x81",
+      "char_cp1251": "Ѓ",
+      "tile_index": 97,
+      "bin_offset": "0x0C20",
+      "rom_offset": "0x683050",
+      "width_pixels": 2,
+      "width_table_offset": "0x05F4E5"
+    },
+    {
+      "code": "0x82",
+      "char_cp1251": "‚",
+      "tile_index": 98,
+      "bin_offset": "0x0C40",
+      "rom_offset": "0x683070",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4E6"
+    },
+    {
+      "code": "0x83",
+      "char_cp1251": "ѓ",
+      "tile_index": 99,
+      "bin_offset": "0x0C60",
+      "rom_offset": "0x683090",
+      "width_pixels": 2,
+      "width_table_offset": "0x05F4E7"
+    },
+    {
+      "code": "0x84",
+      "char_cp1251": "„",
+      "tile_index": 100,
+      "bin_offset": "0x0C80",
+      "rom_offset": "0x6830B0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4E8"
+    },
+    {
+      "code": "0x85",
+      "char_cp1251": "…",
+      "tile_index": 101,
+      "bin_offset": "0x0CA0",
+      "rom_offset": "0x6830D0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4E9"
+    },
+    {
+      "code": "0x86",
+      "char_cp1251": "†",
+      "tile_index": 102,
+      "bin_offset": "0x0CC0",
+      "rom_offset": "0x6830F0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4EA"
+    },
+    {
+      "code": "0x87",
+      "char_cp1251": "‡",
+      "tile_index": 103,
+      "bin_offset": "0x0CE0",
+      "rom_offset": "0x683110",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F4EB"
+    },
+    {
+      "code": "0x88",
+      "char_cp1251": "€",
+      "tile_index": 104,
+      "bin_offset": "0x0D00",
+      "rom_offset": "0x683130",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4EC"
+    },
+    {
+      "code": "0x89",
+      "char_cp1251": "‰",
+      "tile_index": 105,
+      "bin_offset": "0x0D20",
+      "rom_offset": "0x683150",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F4ED"
+    },
+    {
+      "code": "0x8A",
+      "char_cp1251": "Љ",
+      "tile_index": 106,
+      "bin_offset": "0x0D40",
+      "rom_offset": "0x683170",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4EE"
+    },
+    {
+      "code": "0x8B",
+      "char_cp1251": "‹",
+      "tile_index": 107,
+      "bin_offset": "0x0D60",
+      "rom_offset": "0x683190",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F4EF"
+    },
+    {
+      "code": "0x8C",
+      "char_cp1251": "Њ",
+      "tile_index": 108,
+      "bin_offset": "0x0D80",
+      "rom_offset": "0x6831B0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F4F0"
+    },
+    {
+      "code": "0x8D",
+      "char_cp1251": "Ќ",
+      "tile_index": 109,
+      "bin_offset": "0x0DA0",
+      "rom_offset": "0x6831D0",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F4F1"
+    },
+    {
+      "code": "0x8E",
+      "char_cp1251": "Ћ",
+      "tile_index": 110,
+      "bin_offset": "0x0DC0",
+      "rom_offset": "0x6831F0",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F4F2"
+    },
+    {
+      "code": "0x8F",
+      "char_cp1251": "Џ",
+      "tile_index": 111,
+      "bin_offset": "0x0DE0",
+      "rom_offset": "0x683210",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F4F3"
+    },
+    {
+      "code": "0x90",
+      "char_cp1251": "ђ",
+      "tile_index": 112,
+      "bin_offset": "0x0E00",
+      "rom_offset": "0x683230",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4F4"
+    },
+    {
+      "code": "0x91",
+      "char_cp1251": "‘",
+      "tile_index": 113,
+      "bin_offset": "0x0E20",
+      "rom_offset": "0x683250",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4F5"
+    },
+    {
+      "code": "0x92",
+      "char_cp1251": "’",
+      "tile_index": 114,
+      "bin_offset": "0x0E40",
+      "rom_offset": "0x683270",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4F6"
+    },
+    {
+      "code": "0x93",
+      "char_cp1251": "“",
+      "tile_index": 115,
+      "bin_offset": "0x0E60",
+      "rom_offset": "0x683290",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4F7"
+    },
+    {
+      "code": "0x94",
+      "char_cp1251": "”",
+      "tile_index": 116,
+      "bin_offset": "0x0E80",
+      "rom_offset": "0x6832B0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4F8"
+    },
+    {
+      "code": "0x95",
+      "char_cp1251": "•",
+      "tile_index": 117,
+      "bin_offset": "0x0EA0",
+      "rom_offset": "0x6832D0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4F9"
+    },
+    {
+      "code": "0x96",
+      "char_cp1251": "–",
+      "tile_index": 118,
+      "bin_offset": "0x0EC0",
+      "rom_offset": "0x6832F0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4FA"
+    },
+    {
+      "code": "0x97",
+      "char_cp1251": "—",
+      "tile_index": 119,
+      "bin_offset": "0x0EE0",
+      "rom_offset": "0x683310",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4FB"
+    },
+    {
+      "code": "0x98",
+      "char_cp1251": "<0x98>",
+      "tile_index": 120,
+      "bin_offset": "0x0F00",
+      "rom_offset": "0x683330",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4FC"
+    },
+    {
+      "code": "0x99",
+      "char_cp1251": "™",
+      "tile_index": 121,
+      "bin_offset": "0x0F20",
+      "rom_offset": "0x683350",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4FD"
+    },
+    {
+      "code": "0x9A",
+      "char_cp1251": "љ",
+      "tile_index": 122,
+      "bin_offset": "0x0F40",
+      "rom_offset": "0x683370",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4FE"
+    },
+    {
+      "code": "0x9B",
+      "char_cp1251": "›",
+      "tile_index": 123,
+      "bin_offset": "0x0F60",
+      "rom_offset": "0x683390",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F4FF"
+    },
+    {
+      "code": "0x9C",
+      "char_cp1251": "њ",
+      "tile_index": 124,
+      "bin_offset": "0x0F80",
+      "rom_offset": "0x6833B0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F500"
+    },
+    {
+      "code": "0x9D",
+      "char_cp1251": "ќ",
+      "tile_index": 125,
+      "bin_offset": "0x0FA0",
+      "rom_offset": "0x6833D0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F501"
+    },
+    {
+      "code": "0x9E",
+      "char_cp1251": "ћ",
+      "tile_index": 126,
+      "bin_offset": "0x0FC0",
+      "rom_offset": "0x6833F0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F502"
+    },
+    {
+      "code": "0x9F",
+      "char_cp1251": "џ",
+      "tile_index": 127,
+      "bin_offset": "0x0FE0",
+      "rom_offset": "0x683410",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F503"
+    },
+    {
+      "code": "0xA0",
+      "char_cp1251": " ",
+      "tile_index": 128,
+      "bin_offset": "0x1000",
+      "rom_offset": "0x683430",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F504"
+    },
+    {
+      "code": "0xA1",
+      "char_cp1251": "Ў",
+      "tile_index": 129,
+      "bin_offset": "0x1020",
+      "rom_offset": "0x683450",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F505"
+    },
+    {
+      "code": "0xA2",
+      "char_cp1251": "ў",
+      "tile_index": 130,
+      "bin_offset": "0x1040",
+      "rom_offset": "0x683470",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F506"
+    },
+    {
+      "code": "0xA3",
+      "char_cp1251": "Ј",
+      "tile_index": 131,
+      "bin_offset": "0x1060",
+      "rom_offset": "0x683490",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F507"
+    },
+    {
+      "code": "0xA4",
+      "char_cp1251": "¤",
+      "tile_index": 132,
+      "bin_offset": "0x1080",
+      "rom_offset": "0x6834B0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F508"
+    },
+    {
+      "code": "0xA5",
+      "char_cp1251": "Ґ",
+      "tile_index": 133,
+      "bin_offset": "0x10A0",
+      "rom_offset": "0x6834D0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F509"
+    },
+    {
+      "code": "0xA6",
+      "char_cp1251": "¦",
+      "tile_index": 134,
+      "bin_offset": "0x10C0",
+      "rom_offset": "0x6834F0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F50A"
+    },
+    {
+      "code": "0xA7",
+      "char_cp1251": "§",
+      "tile_index": 135,
+      "bin_offset": "0x10E0",
+      "rom_offset": "0x683510",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F50B"
+    },
+    {
+      "code": "0xA8",
+      "char_cp1251": "Ё",
+      "tile_index": 136,
+      "bin_offset": "0x1100",
+      "rom_offset": "0x683530",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F50C"
+    },
+    {
+      "code": "0xA9",
+      "char_cp1251": "©",
+      "tile_index": 137,
+      "bin_offset": "0x1120",
+      "rom_offset": "0x683550",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F50D"
+    },
+    {
+      "code": "0xAA",
+      "char_cp1251": "Є",
+      "tile_index": 138,
+      "bin_offset": "0x1140",
+      "rom_offset": "0x683570",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F50E"
+    },
+    {
+      "code": "0xAB",
+      "char_cp1251": "«",
+      "tile_index": 139,
+      "bin_offset": "0x1160",
+      "rom_offset": "0x683590",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F50F"
+    },
+    {
+      "code": "0xAC",
+      "char_cp1251": "¬",
+      "tile_index": 140,
+      "bin_offset": "0x1180",
+      "rom_offset": "0x6835B0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F510"
+    },
+    {
+      "code": "0xAD",
+      "char_cp1251": "­",
+      "tile_index": 141,
+      "bin_offset": "0x11A0",
+      "rom_offset": "0x6835D0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F511"
+    },
+    {
+      "code": "0xAE",
+      "char_cp1251": "®",
+      "tile_index": 142,
+      "bin_offset": "0x11C0",
+      "rom_offset": "0x6835F0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F512"
+    },
+    {
+      "code": "0xAF",
+      "char_cp1251": "Ї",
+      "tile_index": 143,
+      "bin_offset": "0x11E0",
+      "rom_offset": "0x683610",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F513"
+    },
+    {
+      "code": "0xB0",
+      "char_cp1251": "°",
+      "tile_index": 144,
+      "bin_offset": "0x1200",
+      "rom_offset": "0x683630",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F514"
+    },
+    {
+      "code": "0xB1",
+      "char_cp1251": "±",
+      "tile_index": 145,
+      "bin_offset": "0x1220",
+      "rom_offset": "0x683650",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F515"
+    },
+    {
+      "code": "0xB2",
+      "char_cp1251": "І",
+      "tile_index": 146,
+      "bin_offset": "0x1240",
+      "rom_offset": "0x683670",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F516"
+    },
+    {
+      "code": "0xB3",
+      "char_cp1251": "і",
+      "tile_index": 147,
+      "bin_offset": "0x1260",
+      "rom_offset": "0x683690",
+      "width_pixels": 3,
+      "width_table_offset": "0x05F517"
+    },
+    {
+      "code": "0xB4",
+      "char_cp1251": "ґ",
+      "tile_index": 148,
+      "bin_offset": "0x1280",
+      "rom_offset": "0x6836B0",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F518"
+    },
+    {
+      "code": "0xB5",
+      "char_cp1251": "µ",
+      "tile_index": 149,
+      "bin_offset": "0x12A0",
+      "rom_offset": "0x6836D0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F519"
+    },
+    {
+      "code": "0xB6",
+      "char_cp1251": "¶",
+      "tile_index": 150,
+      "bin_offset": "0x12C0",
+      "rom_offset": "0x6836F0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F51A"
+    },
+    {
+      "code": "0xB7",
+      "char_cp1251": "·",
+      "tile_index": 151,
+      "bin_offset": "0x12E0",
+      "rom_offset": "0x683710",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F51B"
+    },
+    {
+      "code": "0xB8",
+      "char_cp1251": "ё",
+      "tile_index": 152,
+      "bin_offset": "0x1300",
+      "rom_offset": "0x683730",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F51C"
+    },
+    {
+      "code": "0xB9",
+      "char_cp1251": "№",
+      "tile_index": 153,
+      "bin_offset": "0x1320",
+      "rom_offset": "0x683750",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F51D"
+    },
+    {
+      "code": "0xBA",
+      "char_cp1251": "є",
+      "tile_index": 154,
+      "bin_offset": "0x1340",
+      "rom_offset": "0x683770",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F51E"
+    },
+    {
+      "code": "0xBB",
+      "char_cp1251": "»",
+      "tile_index": 155,
+      "bin_offset": "0x1360",
+      "rom_offset": "0x683790",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F51F"
+    },
+    {
+      "code": "0xBC",
+      "char_cp1251": "ј",
+      "tile_index": 156,
+      "bin_offset": "0x1380",
+      "rom_offset": "0x6837B0",
+      "width_pixels": 1,
+      "width_table_offset": "0x05F520"
+    },
+    {
+      "code": "0xBD",
+      "char_cp1251": "Ѕ",
+      "tile_index": 157,
+      "bin_offset": "0x13A0",
+      "rom_offset": "0x6837D0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F521"
+    },
+    {
+      "code": "0xBE",
+      "char_cp1251": "ѕ",
+      "tile_index": 158,
+      "bin_offset": "0x13C0",
+      "rom_offset": "0x6837F0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F522"
+    },
+    {
+      "code": "0xBF",
+      "char_cp1251": "ї",
+      "tile_index": 159,
+      "bin_offset": "0x13E0",
+      "rom_offset": "0x683810",
+      "width_pixels": 4,
+      "width_table_offset": "0x05F523"
+    },
+    {
+      "code": "0xC0",
+      "char_cp1251": "А",
+      "tile_index": 160,
+      "bin_offset": "0x1400",
+      "rom_offset": "0x683830",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F524"
+    },
+    {
+      "code": "0xC1",
+      "char_cp1251": "Б",
+      "tile_index": 161,
+      "bin_offset": "0x1420",
+      "rom_offset": "0x683850",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F525"
+    },
+    {
+      "code": "0xC2",
+      "char_cp1251": "В",
+      "tile_index": 162,
+      "bin_offset": "0x1440",
+      "rom_offset": "0x683870",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F526"
+    },
+    {
+      "code": "0xC3",
+      "char_cp1251": "Г",
+      "tile_index": 163,
+      "bin_offset": "0x1460",
+      "rom_offset": "0x683890",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F527"
+    },
+    {
+      "code": "0xC4",
+      "char_cp1251": "Д",
+      "tile_index": 164,
+      "bin_offset": "0x1480",
+      "rom_offset": "0x6838B0",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F528"
+    },
+    {
+      "code": "0xC5",
+      "char_cp1251": "Е",
+      "tile_index": 165,
+      "bin_offset": "0x14A0",
+      "rom_offset": "0x6838D0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F529"
+    },
+    {
+      "code": "0xC6",
+      "char_cp1251": "Ж",
+      "tile_index": 166,
+      "bin_offset": "0x14C0",
+      "rom_offset": "0x6838F0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F52A"
+    },
+    {
+      "code": "0xC7",
+      "char_cp1251": "З",
+      "tile_index": 167,
+      "bin_offset": "0x14E0",
+      "rom_offset": "0x683910",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F52B"
+    },
+    {
+      "code": "0xC8",
+      "char_cp1251": "И",
+      "tile_index": 168,
+      "bin_offset": "0x1500",
+      "rom_offset": "0x683930",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F52C"
+    },
+    {
+      "code": "0xC9",
+      "char_cp1251": "Й",
+      "tile_index": 169,
+      "bin_offset": "0x1520",
+      "rom_offset": "0x683950",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F52D"
+    },
+    {
+      "code": "0xCA",
+      "char_cp1251": "К",
+      "tile_index": 170,
+      "bin_offset": "0x1540",
+      "rom_offset": "0x683970",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F52E"
+    },
+    {
+      "code": "0xCB",
+      "char_cp1251": "Л",
+      "tile_index": 171,
+      "bin_offset": "0x1560",
+      "rom_offset": "0x683990",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F52F"
+    },
+    {
+      "code": "0xCC",
+      "char_cp1251": "М",
+      "tile_index": 172,
+      "bin_offset": "0x1580",
+      "rom_offset": "0x6839B0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F530"
+    },
+    {
+      "code": "0xCD",
+      "char_cp1251": "Н",
+      "tile_index": 173,
+      "bin_offset": "0x15A0",
+      "rom_offset": "0x6839D0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F531"
+    },
+    {
+      "code": "0xCE",
+      "char_cp1251": "О",
+      "tile_index": 174,
+      "bin_offset": "0x15C0",
+      "rom_offset": "0x6839F0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F532"
+    },
+    {
+      "code": "0xCF",
+      "char_cp1251": "П",
+      "tile_index": 175,
+      "bin_offset": "0x15E0",
+      "rom_offset": "0x683A10",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F533"
+    },
+    {
+      "code": "0xD0",
+      "char_cp1251": "Р",
+      "tile_index": 176,
+      "bin_offset": "0x1600",
+      "rom_offset": "0x683A30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F534"
+    },
+    {
+      "code": "0xD1",
+      "char_cp1251": "С",
+      "tile_index": 177,
+      "bin_offset": "0x1620",
+      "rom_offset": "0x683A50",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F535"
+    },
+    {
+      "code": "0xD2",
+      "char_cp1251": "Т",
+      "tile_index": 178,
+      "bin_offset": "0x1640",
+      "rom_offset": "0x683A70",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F536"
+    },
+    {
+      "code": "0xD3",
+      "char_cp1251": "У",
+      "tile_index": 179,
+      "bin_offset": "0x1660",
+      "rom_offset": "0x683A90",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F537"
+    },
+    {
+      "code": "0xD4",
+      "char_cp1251": "Ф",
+      "tile_index": 180,
+      "bin_offset": "0x1680",
+      "rom_offset": "0x683AB0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F538"
+    },
+    {
+      "code": "0xD5",
+      "char_cp1251": "Х",
+      "tile_index": 181,
+      "bin_offset": "0x16A0",
+      "rom_offset": "0x683AD0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F539"
+    },
+    {
+      "code": "0xD6",
+      "char_cp1251": "Ц",
+      "tile_index": 182,
+      "bin_offset": "0x16C0",
+      "rom_offset": "0x683AF0",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F53A"
+    },
+    {
+      "code": "0xD7",
+      "char_cp1251": "Ч",
+      "tile_index": 183,
+      "bin_offset": "0x16E0",
+      "rom_offset": "0x683B10",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F53B"
+    },
+    {
+      "code": "0xD8",
+      "char_cp1251": "Ш",
+      "tile_index": 184,
+      "bin_offset": "0x1700",
+      "rom_offset": "0x683B30",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F53C"
+    },
+    {
+      "code": "0xD9",
+      "char_cp1251": "Щ",
+      "tile_index": 185,
+      "bin_offset": "0x1720",
+      "rom_offset": "0x683B50",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F53D"
+    },
+    {
+      "code": "0xDA",
+      "char_cp1251": "Ъ",
+      "tile_index": 186,
+      "bin_offset": "0x1740",
+      "rom_offset": "0x683B70",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F53E"
+    },
+    {
+      "code": "0xDB",
+      "char_cp1251": "Ы",
+      "tile_index": 187,
+      "bin_offset": "0x1760",
+      "rom_offset": "0x683B90",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F53F"
+    },
+    {
+      "code": "0xDC",
+      "char_cp1251": "Ь",
+      "tile_index": 188,
+      "bin_offset": "0x1780",
+      "rom_offset": "0x683BB0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F540"
+    },
+    {
+      "code": "0xDD",
+      "char_cp1251": "Э",
+      "tile_index": 189,
+      "bin_offset": "0x17A0",
+      "rom_offset": "0x683BD0",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F541"
+    },
+    {
+      "code": "0xDE",
+      "char_cp1251": "Ю",
+      "tile_index": 190,
+      "bin_offset": "0x17C0",
+      "rom_offset": "0x683BF0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F542"
+    },
+    {
+      "code": "0xDF",
+      "char_cp1251": "Я",
+      "tile_index": 191,
+      "bin_offset": "0x17E0",
+      "rom_offset": "0x683C10",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F543"
+    },
+    {
+      "code": "0xE0",
+      "char_cp1251": "а",
+      "tile_index": 192,
+      "bin_offset": "0x1800",
+      "rom_offset": "0x683C30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F544"
+    },
+    {
+      "code": "0xE1",
+      "char_cp1251": "б",
+      "tile_index": 193,
+      "bin_offset": "0x1820",
+      "rom_offset": "0x683C50",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F545"
+    },
+    {
+      "code": "0xE2",
+      "char_cp1251": "в",
+      "tile_index": 194,
+      "bin_offset": "0x1840",
+      "rom_offset": "0x683C70",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F546"
+    },
+    {
+      "code": "0xE3",
+      "char_cp1251": "г",
+      "tile_index": 195,
+      "bin_offset": "0x1860",
+      "rom_offset": "0x683C90",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F547"
+    },
+    {
+      "code": "0xE4",
+      "char_cp1251": "д",
+      "tile_index": 196,
+      "bin_offset": "0x1880",
+      "rom_offset": "0x683CB0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F548"
+    },
+    {
+      "code": "0xE5",
+      "char_cp1251": "е",
+      "tile_index": 197,
+      "bin_offset": "0x18A0",
+      "rom_offset": "0x683CD0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F549"
+    },
+    {
+      "code": "0xE6",
+      "char_cp1251": "ж",
+      "tile_index": 198,
+      "bin_offset": "0x18C0",
+      "rom_offset": "0x683CF0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F54A"
+    },
+    {
+      "code": "0xE7",
+      "char_cp1251": "з",
+      "tile_index": 199,
+      "bin_offset": "0x18E0",
+      "rom_offset": "0x683D10",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F54B"
+    },
+    {
+      "code": "0xE8",
+      "char_cp1251": "и",
+      "tile_index": 200,
+      "bin_offset": "0x1900",
+      "rom_offset": "0x683D30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F54C"
+    },
+    {
+      "code": "0xE9",
+      "char_cp1251": "й",
+      "tile_index": 201,
+      "bin_offset": "0x1920",
+      "rom_offset": "0x683D50",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F54D"
+    },
+    {
+      "code": "0xEA",
+      "char_cp1251": "к",
+      "tile_index": 202,
+      "bin_offset": "0x1940",
+      "rom_offset": "0x683D70",
+      "width_pixels": 5,
+      "width_table_offset": "0x05F54E"
+    },
+    {
+      "code": "0xEB",
+      "char_cp1251": "л",
+      "tile_index": 203,
+      "bin_offset": "0x1960",
+      "rom_offset": "0x683D90",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F54F"
+    },
+    {
+      "code": "0xEC",
+      "char_cp1251": "м",
+      "tile_index": 204,
+      "bin_offset": "0x1980",
+      "rom_offset": "0x683DB0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F550"
+    },
+    {
+      "code": "0xED",
+      "char_cp1251": "н",
+      "tile_index": 205,
+      "bin_offset": "0x19A0",
+      "rom_offset": "0x683DD0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F551"
+    },
+    {
+      "code": "0xEE",
+      "char_cp1251": "о",
+      "tile_index": 206,
+      "bin_offset": "0x19C0",
+      "rom_offset": "0x683DF0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F552"
+    },
+    {
+      "code": "0xEF",
+      "char_cp1251": "п",
+      "tile_index": 207,
+      "bin_offset": "0x19E0",
+      "rom_offset": "0x683E10",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F553"
+    },
+    {
+      "code": "0xF0",
+      "char_cp1251": "р",
+      "tile_index": 208,
+      "bin_offset": "0x1A00",
+      "rom_offset": "0x683E30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F554"
+    },
+    {
+      "code": "0xF1",
+      "char_cp1251": "с",
+      "tile_index": 209,
+      "bin_offset": "0x1A20",
+      "rom_offset": "0x683E50",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F555"
+    },
+    {
+      "code": "0xF2",
+      "char_cp1251": "т",
+      "tile_index": 210,
+      "bin_offset": "0x1A40",
+      "rom_offset": "0x683E70",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F556"
+    },
+    {
+      "code": "0xF3",
+      "char_cp1251": "у",
+      "tile_index": 211,
+      "bin_offset": "0x1A60",
+      "rom_offset": "0x683E90",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F557"
+    },
+    {
+      "code": "0xF4",
+      "char_cp1251": "ф",
+      "tile_index": 212,
+      "bin_offset": "0x1A80",
+      "rom_offset": "0x683EB0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F558"
+    },
+    {
+      "code": "0xF5",
+      "char_cp1251": "х",
+      "tile_index": 213,
+      "bin_offset": "0x1AA0",
+      "rom_offset": "0x683ED0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F559"
+    },
+    {
+      "code": "0xF6",
+      "char_cp1251": "ц",
+      "tile_index": 214,
+      "bin_offset": "0x1AC0",
+      "rom_offset": "0x683EF0",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F55A"
+    },
+    {
+      "code": "0xF7",
+      "char_cp1251": "ч",
+      "tile_index": 215,
+      "bin_offset": "0x1AE0",
+      "rom_offset": "0x683F10",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F55B"
+    },
+    {
+      "code": "0xF8",
+      "char_cp1251": "ш",
+      "tile_index": 216,
+      "bin_offset": "0x1B00",
+      "rom_offset": "0x683F30",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F55C"
+    },
+    {
+      "code": "0xF9",
+      "char_cp1251": "щ",
+      "tile_index": 217,
+      "bin_offset": "0x1B20",
+      "rom_offset": "0x683F50",
+      "width_pixels": 7,
+      "width_table_offset": "0x05F55D"
+    },
+    {
+      "code": "0xFA",
+      "char_cp1251": "ъ",
+      "tile_index": 218,
+      "bin_offset": "0x1B40",
+      "rom_offset": "0x683F70",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F55E"
+    },
+    {
+      "code": "0xFB",
+      "char_cp1251": "ы",
+      "tile_index": 219,
+      "bin_offset": "0x1B60",
+      "rom_offset": "0x683F90",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F55F"
+    },
+    {
+      "code": "0xFC",
+      "char_cp1251": "ь",
+      "tile_index": 220,
+      "bin_offset": "0x1B80",
+      "rom_offset": "0x683FB0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F560"
+    },
+    {
+      "code": "0xFD",
+      "char_cp1251": "э",
+      "tile_index": 221,
+      "bin_offset": "0x1BA0",
+      "rom_offset": "0x683FD0",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F561"
+    },
+    {
+      "code": "0xFE",
+      "char_cp1251": "ю",
+      "tile_index": 222,
+      "bin_offset": "0x1BC0",
+      "rom_offset": "0x683FF0",
+      "width_pixels": 8,
+      "width_table_offset": "0x05F562"
+    },
+    {
+      "code": "0xFF",
+      "char_cp1251": "я",
+      "tile_index": 223,
+      "bin_offset": "0x1BE0",
+      "rom_offset": "0x684010",
+      "width_pixels": 6,
+      "width_table_offset": "0x05F563"
+    }
+  ]
+}

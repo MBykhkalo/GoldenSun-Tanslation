@@ -1,0 +1,346 @@
+{
+  "rom": "output/temp/golden_sun_2_ukr.gba",
+  "stage4_default": "Ukrainian placeholder glyph substitutions disabled; font stays on bundled Cyrillic CP1251 resources.",
+  "categories": {
+    "main_dialog_font_table": {
+      "description": "Main GS2 dialogue/name font table patched from bundled Cyrillic font_tiles_cyrillic.bin.",
+      "font_table_offset": "0x682430",
+      "font_format": "GBA 4bpp linear tiles, 8x8, 32 bytes per glyph tile",
+      "compressed": false,
+      "can_edit_directly_in_yy_chr": true,
+      "yy_chr_settings": {
+        "format": "4BPP GBA / GBA 4bpp linear",
+        "tile_size": "8x8",
+        "palette_note": "Use any high-contrast 4bpp palette while editing; final in-game colors come from the game palette."
+      },
+      "address_formula": "rom_offset = 0x682430 + (cp1251_code - 0x20) * 32",
+      "missing_or_placeholder_glyphs": [
+        {
+          "char": "Ґ",
+          "cp1251_code": "0xA5",
+          "rom_offset": "0x6834D0",
+          "tile_index_from_font_start": 133,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "blank/raw GS1 placeholder tile",
+          "if_ukrainian_placeholders_enabled_displays_as": "Г",
+          "placeholder_graphics_source_code": "0xC3",
+          "placeholder_graphics_source_rom_offset": "0x683890",
+          "note": "redraw as Ukrainian Ghe with upturn"
+        },
+        {
+          "char": "ґ",
+          "cp1251_code": "0xB4",
+          "rom_offset": "0x6836B0",
+          "tile_index_from_font_start": 148,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "blank/raw GS1 placeholder tile",
+          "if_ukrainian_placeholders_enabled_displays_as": "г",
+          "placeholder_graphics_source_code": "0xE3",
+          "placeholder_graphics_source_rom_offset": "0x683C90",
+          "note": "redraw as Ukrainian ghe with upturn"
+        },
+        {
+          "char": "Є",
+          "cp1251_code": "0xAA",
+          "rom_offset": "0x683570",
+          "tile_index_from_font_start": 138,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "blank/raw GS1 placeholder tile",
+          "if_ukrainian_placeholders_enabled_displays_as": "Е",
+          "placeholder_graphics_source_code": "0xC5",
+          "placeholder_graphics_source_rom_offset": "0x6838D0",
+          "note": "redraw as Ukrainian Ye"
+        },
+        {
+          "char": "є",
+          "cp1251_code": "0xBA",
+          "rom_offset": "0x683770",
+          "tile_index_from_font_start": 154,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "blank/raw GS1 placeholder tile",
+          "if_ukrainian_placeholders_enabled_displays_as": "е",
+          "placeholder_graphics_source_code": "0xE5",
+          "placeholder_graphics_source_rom_offset": "0x683CD0",
+          "note": "redraw as Ukrainian ye"
+        },
+        {
+          "char": "І",
+          "cp1251_code": "0xB2",
+          "rom_offset": "0x683670",
+          "tile_index_from_font_start": 146,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "blank/raw GS1 placeholder tile",
+          "if_ukrainian_placeholders_enabled_displays_as": "I",
+          "placeholder_graphics_source_code": "0x49",
+          "placeholder_graphics_source_rom_offset": "0x682950",
+          "note": "redraw as Ukrainian I if needed"
+        },
+        {
+          "char": "і",
+          "cp1251_code": "0xB3",
+          "rom_offset": "0x683690",
+          "tile_index_from_font_start": 147,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "blank/raw GS1 placeholder tile",
+          "if_ukrainian_placeholders_enabled_displays_as": "i",
+          "placeholder_graphics_source_code": "0x69",
+          "placeholder_graphics_source_rom_offset": "0x682D50",
+          "note": "redraw as Ukrainian small i if needed"
+        },
+        {
+          "char": "Ї",
+          "cp1251_code": "0xAF",
+          "rom_offset": "0x683610",
+          "tile_index_from_font_start": 143,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "blank/raw GS1 placeholder tile",
+          "if_ukrainian_placeholders_enabled_displays_as": "I",
+          "placeholder_graphics_source_code": "0x49",
+          "placeholder_graphics_source_rom_offset": "0x682950",
+          "note": "redraw with diaeresis/dots"
+        },
+        {
+          "char": "ї",
+          "cp1251_code": "0xBF",
+          "rom_offset": "0x683810",
+          "tile_index_from_font_start": 159,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "@-like/raw GS1 placeholder tile",
+          "if_ukrainian_placeholders_enabled_displays_as": "i",
+          "placeholder_graphics_source_code": "0x69",
+          "placeholder_graphics_source_rom_offset": "0x682D50",
+          "note": "redraw with diaeresis/dots"
+        }
+      ]
+    },
+    "secondary_menu_save_font_table": {
+      "description": "Secondary menu/save-screen font records. This was the separate table that caused menu text to differ from the original missing-glyph report.",
+      "font_format": "renderer-specific width/header plus 1bpp-ish row records; not standard GBA 4bpp tiles",
+      "compressed": false,
+      "can_edit_directly_in_yy_chr": false,
+      "address_formula": "rom_offset = 0x05A580 + (cp1251_code - 0x25) * 32",
+      "full_table_range": {
+        "char_range": "0x25..0xFF",
+        "rom_offset": "0x05A580",
+        "rom_end_offset": "0x05C0DC",
+        "record_size_bytes": "32 bytes per record, except 0xFF is 28 bytes"
+      },
+      "stage4_copied_cyrillic_records": "0xA8, 0xB8, and 0xBF..0xFF; other Ukrainian-specific slots remain clean GS2 data unless edited manually.",
+      "known_records": [
+        {
+          "char": "Ё",
+          "cp1251_code": "0xA8",
+          "rom_offset": "0x05B5E0",
+          "record_size_bytes": 24
+        },
+        {
+          "char": "ё",
+          "cp1251_code": "0xB8",
+          "rom_offset": "0x05B7E0",
+          "record_size_bytes": 30
+        },
+        {
+          "char_range": "0xBF..0xFF",
+          "rom_offset": "0x05B8C0",
+          "rom_end_offset": "0x05C0DC",
+          "record_size_bytes": "32 bytes per record, except 0xFF is 28 bytes",
+          "address_formula": "rom_offset = 0x05B8C0 + (cp1251_code - 0xBF) * 32 for 0xBF..0xFF"
+        }
+      ],
+      "missing_or_placeholder_glyphs": [
+        {
+          "char": "Ґ",
+          "cp1251_code": "0xA5",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x05B580",
+          "address_formula": "rom_offset = 0x05A580 + (cp1251_code - 0x25) * 32",
+          "record_size_bytes": 32,
+          "stage4_placeholder_toggle_effect": "none; the current toggle only copies placeholders in the main 4bpp font table",
+          "patched_by_stage4": false,
+          "slot_source": "clean GS2 original secondary slot; Stage 4 does not currently replace this Ukrainian-specific byte",
+          "current_default_mode_display": "raw clean-GS2 secondary glyph/blank slot for this byte; not a Ukrainian glyph",
+          "ascii_preview_from_current_output_rom": [
+            ".#######",
+            "..#",
+            "..#",
+            "..#",
+            ".#",
+            ".#",
+            ".#",
+            "###"
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Edit with a custom renderer/hex workflow, not normal YY-CHR tile mode.",
+          "record_index_from_0x25": 128
+        },
+        {
+          "char": "ґ",
+          "cp1251_code": "0xB4",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x05B760",
+          "address_formula": "rom_offset = 0x05A580 + (cp1251_code - 0x25) * 32",
+          "record_size_bytes": 32,
+          "stage4_placeholder_toggle_effect": "none; the current toggle only copies placeholders in the main 4bpp font table",
+          "patched_by_stage4": false,
+          "slot_source": "clean GS2 original secondary slot; Stage 4 does not currently replace this Ukrainian-specific byte",
+          "current_default_mode_display": "raw clean-GS2 secondary glyph/blank slot for this byte; not a Ukrainian glyph",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            "....#",
+            "#####",
+            ".#",
+            ".#",
+            "#",
+            "#",
+            "#"
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Edit with a custom renderer/hex workflow, not normal YY-CHR tile mode.",
+          "record_index_from_0x25": 143
+        },
+        {
+          "char": "Є",
+          "cp1251_code": "0xAA",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x05B620",
+          "address_formula": "rom_offset = 0x05A580 + (cp1251_code - 0x25) * 32",
+          "record_size_bytes": 32,
+          "stage4_placeholder_toggle_effect": "none; the current toggle only copies placeholders in the main 4bpp font table",
+          "patched_by_stage4": false,
+          "slot_source": "clean GS2 original secondary slot; Stage 4 does not currently replace this Ukrainian-specific byte",
+          "current_default_mode_display": "raw clean-GS2 secondary glyph/blank slot for this byte; not a Ukrainian glyph",
+          "ascii_preview_from_current_output_rom": [
+            "...####",
+            "..#....#",
+            ".#..#",
+            ".####",
+            "#...#",
+            "#",
+            "#....##",
+            ".####"
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Edit with a custom renderer/hex workflow, not normal YY-CHR tile mode.",
+          "record_index_from_0x25": 133
+        },
+        {
+          "char": "є",
+          "cp1251_code": "0xBA",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x05B820",
+          "address_formula": "rom_offset = 0x05A580 + (cp1251_code - 0x25) * 32",
+          "record_size_bytes": 32,
+          "stage4_placeholder_toggle_effect": "none; the current toggle only copies placeholders in the main 4bpp font table",
+          "patched_by_stage4": false,
+          "slot_source": "clean GS2 original secondary slot; Stage 4 does not currently replace this Ukrainian-specific byte",
+          "current_default_mode_display": "raw clean-GS2 secondary glyph/blank slot for this byte; not a Ukrainian glyph",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            ".",
+            ".",
+            ".###",
+            "#...#",
+            "###",
+            "#...#",
+            ".###"
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Edit with a custom renderer/hex workflow, not normal YY-CHR tile mode.",
+          "record_index_from_0x25": 149
+        },
+        {
+          "char": "І",
+          "cp1251_code": "0xB2",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x05B720",
+          "address_formula": "rom_offset = 0x05A580 + (cp1251_code - 0x25) * 32",
+          "record_size_bytes": 32,
+          "stage4_placeholder_toggle_effect": "none; the current toggle only copies placeholders in the main 4bpp font table",
+          "patched_by_stage4": false,
+          "slot_source": "clean GS2 original secondary slot; Stage 4 does not currently replace this Ukrainian-specific byte",
+          "current_default_mode_display": "raw clean-GS2 secondary glyph/blank slot for this byte; not a Ukrainian glyph",
+          "ascii_preview_from_current_output_rom": [
+            ".###",
+            "..#",
+            "..#",
+            "..#",
+            ".#",
+            ".#",
+            ".#",
+            "###"
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Edit with a custom renderer/hex workflow, not normal YY-CHR tile mode.",
+          "record_index_from_0x25": 141
+        },
+        {
+          "char": "і",
+          "cp1251_code": "0xB3",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x05B740",
+          "address_formula": "rom_offset = 0x05A580 + (cp1251_code - 0x25) * 32",
+          "record_size_bytes": 32,
+          "stage4_placeholder_toggle_effect": "none; the current toggle only copies placeholders in the main 4bpp font table",
+          "patched_by_stage4": false,
+          "slot_source": "clean GS2 original secondary slot; Stage 4 does not currently replace this Ukrainian-specific byte",
+          "current_default_mode_display": "raw clean-GS2 secondary glyph/blank slot for this byte; not a Ukrainian glyph",
+          "ascii_preview_from_current_output_rom": [
+            "..#",
+            "..#",
+            ".",
+            "##",
+            ".#",
+            ".#",
+            "#",
+            "#"
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Edit with a custom renderer/hex workflow, not normal YY-CHR tile mode.",
+          "record_index_from_0x25": 142
+        },
+        {
+          "char": "Ї",
+          "cp1251_code": "0xAF",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x05B6C0",
+          "address_formula": "rom_offset = 0x05A580 + (cp1251_code - 0x25) * 32",
+          "record_size_bytes": 32,
+          "stage4_placeholder_toggle_effect": "none; the current toggle only copies placeholders in the main 4bpp font table",
+          "patched_by_stage4": false,
+          "slot_source": "clean GS2 original secondary slot; Stage 4 does not currently replace this Ukrainian-specific byte",
+          "current_default_mode_display": "raw clean-GS2 secondary glyph/blank slot for this byte; not a Ukrainian glyph",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            ".###",
+            "..#",
+            "..#",
+            ".#",
+            ".#",
+            ".#",
+            "###"
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Edit with a custom renderer/hex workflow, not normal YY-CHR tile mode.",
+          "record_index_from_0x25": 138
+        },
+        {
+          "char": "ї",
+          "cp1251_code": "0xBF",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x05B8C0",
+          "address_formula": "rom_offset = 0x05A580 + (cp1251_code - 0x25) * 32",
+          "record_size_bytes": 32,
+          "stage4_placeholder_toggle_effect": "none; the current toggle only copies placeholders in the main 4bpp font table",
+          "patched_by_stage4": true,
+          "slot_source": "bundled Cyrillic secondary record/range",
+          "current_default_mode_display": "raw bundled Cyrillic secondary glyph for this byte; not a proper Ukrainian glyph",
+          "ascii_preview_from_current_output_rom": [
+            ".#.#",
+            ".",
+            ".",
+            "##",
+            ".#",
+            ".#",
+            "#",
+            "#"
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Edit with a custom renderer/hex workflow, not normal YY-CHR tile mode.",
+          "record_index_from_0x25": 154
+        }
+      ]
+    }
+  }
+}

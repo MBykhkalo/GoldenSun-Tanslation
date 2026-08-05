@@ -1,0 +1,356 @@
+{
+  "rom": "output/temp/golden_sun_1_ukr.gba",
+  "categories": {
+    "main_dialog_font_table": {
+      "description": "Main GS1 dialogue/name font table.",
+      "font_table_offset": "0x3213D0",
+      "font_format": "GBA 4bpp linear tiles, 8x8, 32 bytes per glyph tile",
+      "compressed": false,
+      "can_edit_directly_in_yy_chr": true,
+      "yy_chr_settings": {
+        "format": "4BPP GBA / GBA 4bpp linear",
+        "tile_size": "8x8",
+        "palette_note": "Use any high-contrast 4bpp palette while editing; final in-game colors come from the game palette."
+      },
+      "address_formula": "rom_offset = 0x3213D0 + (cp1251_code - 0x20) * 32",
+      "missing_or_placeholder_glyphs": [
+        {
+          "char": "Ґ",
+          "cp1251_code": "0xA5",
+          "rom_offset": "0x322470",
+          "tile_index_from_font_start": 133,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic cp1251 slot; verify/redraw as Ukrainian Ghe with upturn",
+          "suggested_reference_source_code": "0xC3",
+          "suggested_reference_source_char": "Г",
+          "suggested_reference_source_rom_offset": "0x322830"
+        },
+        {
+          "char": "ґ",
+          "cp1251_code": "0xB4",
+          "rom_offset": "0x322650",
+          "tile_index_from_font_start": 148,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic cp1251 slot; verify/redraw as Ukrainian ghe with upturn",
+          "suggested_reference_source_code": "0xE3",
+          "suggested_reference_source_char": "г",
+          "suggested_reference_source_rom_offset": "0x322C30"
+        },
+        {
+          "char": "Є",
+          "cp1251_code": "0xAA",
+          "rom_offset": "0x322510",
+          "tile_index_from_font_start": 138,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic cp1251 slot; verify/redraw as Ukrainian Ye",
+          "suggested_reference_source_code": "0xC5",
+          "suggested_reference_source_char": "Е",
+          "suggested_reference_source_rom_offset": "0x322870"
+        },
+        {
+          "char": "є",
+          "cp1251_code": "0xBA",
+          "rom_offset": "0x322710",
+          "tile_index_from_font_start": 154,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic cp1251 slot; verify/redraw as Ukrainian ye",
+          "suggested_reference_source_code": "0xE5",
+          "suggested_reference_source_char": "е",
+          "suggested_reference_source_rom_offset": "0x322C70"
+        },
+        {
+          "char": "І",
+          "cp1251_code": "0xB2",
+          "rom_offset": "0x322610",
+          "tile_index_from_font_start": 146,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic cp1251 slot; verify/redraw as Ukrainian I",
+          "suggested_reference_source_code": "0x49",
+          "suggested_reference_source_char": "I",
+          "suggested_reference_source_rom_offset": "0x3218F0"
+        },
+        {
+          "char": "і",
+          "cp1251_code": "0xB3",
+          "rom_offset": "0x322630",
+          "tile_index_from_font_start": 147,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic cp1251 slot; verify/redraw as Ukrainian small i",
+          "suggested_reference_source_code": "0x69",
+          "suggested_reference_source_char": "i",
+          "suggested_reference_source_rom_offset": "0x321CF0"
+        },
+        {
+          "char": "Ї",
+          "cp1251_code": "0xAF",
+          "rom_offset": "0x3225B0",
+          "tile_index_from_font_start": 143,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic cp1251 slot; redraw with diaeresis/dots",
+          "suggested_reference_source_code": "0x49",
+          "suggested_reference_source_char": "I",
+          "suggested_reference_source_rom_offset": "0x3218F0"
+        },
+        {
+          "char": "ї",
+          "cp1251_code": "0xBF",
+          "rom_offset": "0x3227B0",
+          "tile_index_from_font_start": 159,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic cp1251 slot; redraw with diaeresis/dots",
+          "suggested_reference_source_code": "0x69",
+          "suggested_reference_source_char": "i",
+          "suggested_reference_source_rom_offset": "0x321CF0"
+        }
+      ]
+    },
+    "secondary_menu_save_font_table": {
+      "description": "Secondary menu/save-screen font records.",
+      "font_format": "renderer-specific width/header plus 1bpp-ish row records; not standard GBA 4bpp tiles",
+      "compressed": false,
+      "can_edit_directly_in_yy_chr": false,
+      "address_formula": "rom_offset = 0x0322C4 + (cp1251_code - 0x25) * 32",
+      "full_table_range": {
+        "char_range": "0x25..0xFF",
+        "rom_offset": "0x0322C4",
+        "rom_end_offset": "0x033E20",
+        "record_size_bytes": "32 bytes per record, except 0xFF is 28 bytes"
+      },
+      "known_changed_records_from_gs1_cyrillic_font": [
+        {
+          "char": "Ё",
+          "cp1251_code": "0xA8",
+          "rom_offset": "0x033324"
+        },
+        {
+          "char": "ё",
+          "cp1251_code": "0xB8",
+          "rom_offset": "0x033524"
+        },
+        {
+          "char_range": "0xBF..0xFF",
+          "rom_offset": "0x033604",
+          "rom_end_offset": "0x033E20"
+        }
+      ],
+      "missing_or_placeholder_glyphs": [
+        {
+          "char": "Ґ",
+          "cp1251_code": "0xA5",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x0332C4",
+          "address_formula": "rom_offset = 0x0322C4 + (cp1251_code - 0x25) * 32",
+          "record_index_from_0x25": 128,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic secondary glyph; verify/redraw for Ukrainian",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            ".......#",
+            ".#######",
+            "..#",
+            "..#",
+            "..#",
+            ".#",
+            ".#",
+            ".#",
+            "###",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Use extract_secondary_font.py for a YY-CHR-friendly conversion."
+        },
+        {
+          "char": "ґ",
+          "cp1251_code": "0xB4",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x0334A4",
+          "address_formula": "rom_offset = 0x0322C4 + (cp1251_code - 0x25) * 32",
+          "record_index_from_0x25": 143,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic secondary glyph; verify/redraw for Ukrainian",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            ".",
+            ".",
+            "....#",
+            "#####",
+            ".#",
+            ".#",
+            "#",
+            "#",
+            "#",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Use extract_secondary_font.py for a YY-CHR-friendly conversion."
+        },
+        {
+          "char": "Є",
+          "cp1251_code": "0xAA",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x033364",
+          "address_formula": "rom_offset = 0x0322C4 + (cp1251_code - 0x25) * 32",
+          "record_index_from_0x25": 133,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic secondary glyph; verify/redraw for Ukrainian",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            ".",
+            "...####",
+            "..#....#",
+            ".#..#",
+            ".####",
+            "#...#",
+            "#",
+            "#....##",
+            ".####",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Use extract_secondary_font.py for a YY-CHR-friendly conversion."
+        },
+        {
+          "char": "є",
+          "cp1251_code": "0xBA",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x033564",
+          "address_formula": "rom_offset = 0x0322C4 + (cp1251_code - 0x25) * 32",
+          "record_index_from_0x25": 149,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic secondary glyph; verify/redraw for Ukrainian",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".###",
+            "#...#",
+            "###",
+            "#...#",
+            ".###",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Use extract_secondary_font.py for a YY-CHR-friendly conversion."
+        },
+        {
+          "char": "І",
+          "cp1251_code": "0xB2",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x033464",
+          "address_formula": "rom_offset = 0x0322C4 + (cp1251_code - 0x25) * 32",
+          "record_index_from_0x25": 141,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic secondary glyph; verify/redraw for Ukrainian",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            ".",
+            ".###",
+            "..#",
+            "..#",
+            "..#",
+            ".#",
+            ".#",
+            ".#",
+            "###",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Use extract_secondary_font.py for a YY-CHR-friendly conversion."
+        },
+        {
+          "char": "і",
+          "cp1251_code": "0xB3",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x033484",
+          "address_formula": "rom_offset = 0x0322C4 + (cp1251_code - 0x25) * 32",
+          "record_index_from_0x25": 142,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic secondary glyph; verify/redraw for Ukrainian",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            ".",
+            "..#",
+            "..#",
+            ".",
+            "##",
+            ".#",
+            ".#",
+            "#",
+            "#",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Use extract_secondary_font.py for a YY-CHR-friendly conversion."
+        },
+        {
+          "char": "Ї",
+          "cp1251_code": "0xAF",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x033404",
+          "address_formula": "rom_offset = 0x0322C4 + (cp1251_code - 0x25) * 32",
+          "record_index_from_0x25": 138,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic secondary glyph; verify/redraw for Ukrainian",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            ".#.#",
+            ".",
+            ".###",
+            "..#",
+            "..#",
+            ".#",
+            ".#",
+            ".#",
+            "###",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Use extract_secondary_font.py for a YY-CHR-friendly conversion."
+        },
+        {
+          "char": "ї",
+          "cp1251_code": "0xBF",
+          "renderer": "menu/save-screen secondary font records",
+          "rom_offset": "0x033604",
+          "address_formula": "rom_offset = 0x0322C4 + (cp1251_code - 0x25) * 32",
+          "record_index_from_0x25": 154,
+          "record_size_bytes": 32,
+          "current_default_mode_display": "Cyrillic secondary glyph; verify/redraw for Ukrainian",
+          "ascii_preview_from_current_output_rom": [
+            ".",
+            ".",
+            ".#.#",
+            ".",
+            ".",
+            "##",
+            ".#",
+            ".#",
+            "#",
+            "#",
+            ".",
+            ".",
+            ".",
+            "."
+          ],
+          "yy_chr_note": "Not standard GBA 4bpp tile data. Use extract_secondary_font.py for a YY-CHR-friendly conversion."
+        }
+      ]
+    }
+  }
+}

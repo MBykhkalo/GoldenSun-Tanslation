@@ -1,0 +1,40 @@
+{
+  "description": "Frozen GS2 plaintext hook/layout used by Stage 4 normal builds.",
+  "clean_rom": {
+    "size": 16777216,
+    "sha256": "4199d82f845edf3e2e92f3783bca00190b5bc102d7c8aa339b951de280b1e6cc",
+    "title": "GOLDEN_SUN_B",
+    "game_code": "AGFE",
+    "engine_version": 1,
+    "file_table": "0x08680000",
+    "root_table": "0x08038000",
+    "string_length_table": "0x080a9f54",
+    "string_model_table": "0x08060c30",
+    "native_string_group_count": 49,
+    "font_table_offset": "0x682430",
+    "width_table_offset": "0x05f484"
+  },
+  "plaintext_table_signature": {
+    "code_literal_offset": "0x0385a4",
+    "table_offset": "0xfa0000",
+    "table_virtual_address": "0x08fa0000",
+    "text_base_offset": "0xfac300",
+    "text_base_virtual_address": "0x08fac300",
+    "slot_count": 12480,
+    "effective_entry_count": 12461
+  },
+  "system_patch_clusters": [
+    {
+      "start": "0x03843c",
+      "end": "0x038450",
+      "size": 20,
+      "data_hex": "0e0090e80110f2e40e0080e80100a0e11eff2fe1"
+    },
+    {
+      "start": "0x038580",
+      "end": "0x0385ac",
+      "size": 44,
+      "data_hex": "1c209fe51c309fe50111a0e1012092e7032082e00010a0e30030a0e30e0080e81eff2fe10000fa0800c3fa08"
+    }
+  ]
+}
