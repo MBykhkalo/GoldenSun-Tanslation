@@ -1,8 +1,13 @@
 # Golden Sun Ukrainian Localization Tools
 
 ## Ukrainian translation is included in this repo for Golden Sun The Lost Age
-If you'd like to just make a ROM with translations just run main.py and pick option 7.
-As the result you'll get a ready to play ROM
+Якщо Ви прийшли сюди як геймер і хочете отримати українізований ром то вам потрбіно:
+1. Скачати цей репозиторій у вигляді .zip архіву та розпакувати.
+2. Покласти Ваш оригінальний ROM в папку `GS2/input`. Переіменуйте ром на `golden_sun_2_eng.gba`
+3. Зайдіть в `GS2/code`
+4. Запустіть `main.py` (У вас має бути встановлений Пайтон)
+5. Натисніть `7`, `Enter` та почекайте трохи
+6. Скрипт відпрацює і в `GS2/output/ROM` ви знайдете готовий українізовний ROM
 
 This repository contains two standalone workspaces for building Ukrainian-localized ROMs:
 
